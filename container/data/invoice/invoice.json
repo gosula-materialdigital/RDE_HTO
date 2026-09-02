@@ -1,0 +1,20 @@
+{
+    "datasetId": "00000000-0000-0000-0000-000000000000",
+    "basic": {
+        "dateSubmitted": "2026-05-08",
+        "dataOwnerId": "00000000000000000000000000000000000000000000000000000000",
+        "dataName": "Local Development Test",
+        "instrumentId": "00000000-0000-0000-0000-000000000000",
+        "experimentId": "test-run-001",
+        "description": "Heat Treatment Process"
+    },
+    "custom": {
+        "process_id": "charge_3467",
+        "loadname": "Charge 3467",
+        "treatmenttype": "Carbourising",
+        "treatment": "850°C 2H/ÖL",
+        "starttime": "07.06.2022 14:03:09",
+        "endtime": "07.06.2022 17:45:15",
+        "numberofsteps": 9
+    }
+}

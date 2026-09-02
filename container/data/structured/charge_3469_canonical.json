@@ -1,0 +1,3164 @@
+[
+    {
+        "Quenching And Tempering": {
+            "hasIdentifier": "charge_3469_quenchingandtempering",
+            "label": "charge_3469_quenchingandtempering",
+            "starts with": [
+                {
+                    "Process": {
+                        "hasIdentifier": "charge_3469_step_1",
+                        "label": "charge_3469_step_1"
+                    }
+                }
+            ],
+            "ends with": [
+                {
+                    "Process": {
+                        "hasIdentifier": "charge_3469_step_9",
+                        "label": "charge_3469_step_9"
+                    }
+                }
+            ],
+            "has participant": [
+                {
+                    "Furnace": {
+                        "hasIdentifier": "charge_3469_furnace",
+                        "label": "charge_3469_furnace"
+                    }
+                },
+                {
+                    "Device": {
+                        "hasIdentifier": "charge_3469_measurementdevice",
+                        "label": "charge_3469_measurementdevice"
+                    }
+                }
+            ],
+            "has specified input": [
+                {
+                    "Object": {
+                        "hasIdentifier": "charge_3469_testpiece",
+                        "label": "charge_3469_testpiece"
+                    }
+                }
+            ],
+            "realizes": [
+                {
+                    "Test Piece Role": {
+                        "hasIdentifier": "charge_3469_testpiecerole",
+                        "label": "charge_3469_testpiecerole"
+                    }
+                },
+                {
+                    "Austenitizing Point": {
+                        "hasIdentifier": "charge_3469_austenitizingpoint",
+                        "label": "charge_3469_austenitizingpoint"
+                    }
+                },
+                {
+                    "Measuring Function": {
+                        "hasIdentifier": "charge_3469_measuringdevicefunction",
+                        "label": "charge_3469_measuringdevicefunction"
+                    }
+                },
+                {
+                    "Device Role": {
+                        "hasIdentifier": "charge_3469_devicerole",
+                        "label": "charge_3469_devicerole"
+                    }
+                },
+                {
+                    "Device Role": {
+                        "hasIdentifier": "charge_3469_measuringdevicerole",
+                        "label": "charge_3469_measuringdevicerole"
+                    }
+                },
+                {
+                    "Plan": {
+                        "hasIdentifier": "charge_3469_qtplan",
+                        "label": "charge_3469_qtplan"
+                    }
+                }
+            ],
+            "exists at": [
+                {
+                    "Temporal Region": {
+                        "hasIdentifier": "charge_3469_temporalregion",
+                        "label": "charge_3469_temporalregion"
+                    }
+                }
+            ],
+            "has specified output": [
+                {
+                    "File Data Item": {
+                        "hasIdentifier": "charge_3469_filedataitem",
+                        "label": "charge_3469_filedataitem"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Identifier": {
+            "hasIdentifier": "charge_3469_name",
+            "label": "charge_3469_name",
+            "has value": "Charge 3469",
+            "denotes": [
+                {
+                    "Object": {
+                        "hasIdentifier": "charge_3469_testpiece",
+                        "label": "charge_3469_testpiece"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Identifier": {
+            "hasIdentifier": "charge_3469_name",
+            "label": "charge_3469_name",
+            "has value": "Quenching and Tempering",
+            "denotes": [
+                {
+                    "Quenching And Tempering": {
+                        "hasIdentifier": "charge_3469_quenchingandtempering",
+                        "label": "charge_3469_quenchingandtempering"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Identifier": {
+            "hasIdentifier": "charge_3469_qtrecipe_type",
+            "label": "charge_3469_qtrecipe_type",
+            "has value": "850°C 2H/ÖL",
+            "denotes": [
+                {
+                    "Qt Recipe": {
+                        "hasIdentifier": "charge_3469_qtrecipe",
+                        "label": "charge_3469_qtrecipe"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Plan": {
+            "hasIdentifier": "charge_3469_qtplan",
+            "label": "charge_3469_qtplan",
+            "concretizes": [
+                {
+                    "Qt Recipe": {
+                        "hasIdentifier": "charge_3469_qtrecipe",
+                        "label": "charge_3469_qtrecipe",
+                        "denoted by": [
+                            {
+                                "Identifier": {
+                                    "hasIdentifier": "charge_3469_qtrecipe_type",
+                                    "label": "charge_3469_qtrecipe_type"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Temporal Region": {
+            "hasIdentifier": "charge_3469_temporalregion",
+            "label": "charge_3469_temporalregion",
+            "has first instant": [
+                {
+                    "Temporal Instant": {
+                        "hasIdentifier": "charge_3469_temporalregion_start",
+                        "label": "charge_3469_temporalregion_start",
+                        "time:inXSDDateTimeStamp": "2022-06-08T13:22:53+02:00"
+                    }
+                }
+            ],
+            "has last instant": [
+                {
+                    "Temporal Instant": {
+                        "hasIdentifier": "charge_3469_temporalregion_end",
+                        "label": "charge_3469_temporalregion_end",
+                        "time:inXSDDateTimeStamp": "2022-06-08T16:57:37+02:00"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Object": {
+            "hasIdentifier": "charge_3469_testpiece",
+            "label": "charge_3469_testpiece",
+            "has role": [
+                {
+                    "Test Piece Role": {
+                        "hasIdentifier": "charge_3469_testpiecerole",
+                        "label": "charge_3469_testpiecerole"
+                    }
+                }
+            ],
+            "derives from": [
+                {
+                    "Steel": {
+                        "hasIdentifier": "charge_3469_steel",
+                        "label": "charge_3469_steel"
+                    }
+                }
+            ],
+            "has characteristic": [
+                {
+                    "Austenitizing Point": {
+                        "hasIdentifier": "charge_3469_austenitizingpoint",
+                        "label": "charge_3469_austenitizingpoint"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "File Data Item": {
+            "hasIdentifier": "charge_3469_filedataitem",
+            "label": "charge_3469_filedataitem",
+            "has url": "https://nextcloud.iwt.zz/apps/files/files/460150",
+            "has part": [
+                {
+                    "Annotated Table": {
+                        "hasIdentifier": "charge_3469_qtresult_table",
+                        "label": "charge_3469_qtresult_table",
+                        "is about": [
+                            {
+                                "Data Item": {
+                                    "hasIdentifier": "charge_3469_qtresult",
+                                    "label": "charge_3469_qtresult"
+                                }
+                            }
+                        ],
+                        "table schema": [
+                            {
+                                "Schema": {
+                                    "hasIdentifier": "charge_3469_tableschema",
+                                    "label": "charge_3469_tableschema",
+                                    "column": [
+                                        {
+                                            "Column Description": {
+                                                "hasIdentifier": "charge_3469_result_table_column_1",
+                                                "label": "charge_3469_result_table_column_1",
+                                                "Datatype": "time:inXSDDate",
+                                                "is about": [
+                                                    {
+                                                        "Date Value Specification": {
+                                                            "hasIdentifier": "charge_3469_date",
+                                                            "label": "charge_3469_date"
+                                                        }
+                                                    }
+                                                ],
+                                                "has measurement unit label": [
+                                                    {
+                                                        "Measurement Unit Label": {
+                                                            "hasIdentifier": "unit:DAY",
+                                                            "label": "unit:DAY"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Column Description": {
+                                                "hasIdentifier": "charge_3469_result_table_column_2",
+                                                "label": "charge_3469_result_table_column_2",
+                                                "Datatype": "time:inXSDTime",
+                                                "is about": [
+                                                    {
+                                                        "Date Value Specification": {
+                                                            "hasIdentifier": "charge_3469_time",
+                                                            "label": "charge_3469_time"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Column Description": {
+                                                "hasIdentifier": "charge_3469_result_table_column_3",
+                                                "label": "charge_3469_result_table_column_3",
+                                                "Datatype": "xsd:string"
+                                            }
+                                        },
+                                        {
+                                            "Column Description": {
+                                                "hasIdentifier": "charge_3469_result_table_column_4",
+                                                "label": "charge_3469_result_table_column_4",
+                                                "Datatype": "xsd:double",
+                                                "is about": [
+                                                    {
+                                                        "Temperature": {
+                                                            "hasIdentifier": "charge_3469_quenchingchamber_temperature",
+                                                            "label": "charge_3469_quenchingchamber_temperature"
+                                                        }
+                                                    }
+                                                ],
+                                                "has measurement unit label": [
+                                                    {
+                                                        "Measurement Unit Label": {
+                                                            "hasIdentifier": "unit:DEG_C",
+                                                            "label": "unit:DEG_C"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Column Description": {
+                                                "hasIdentifier": "charge_3469_result_table_column_5",
+                                                "label": "charge_3469_result_table_column_5",
+                                                "Datatype": "xsd:double",
+                                                "is about": [
+                                                    {
+                                                        "Pressure": {
+                                                            "hasIdentifier": "charge_3469_quenchingchamber_vacuumpressure",
+                                                            "label": "charge_3469_quenchingchamber_vacuumpressure"
+                                                        }
+                                                    }
+                                                ],
+                                                "has measurement unit label": [
+                                                    {
+                                                        "Measurement Unit Label": {
+                                                            "hasIdentifier": "unit:MilliBAR",
+                                                            "label": "unit:MilliBAR"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Column Description": {
+                                                "hasIdentifier": "charge_3469_result_table_column_6",
+                                                "label": "charge_3469_result_table_column_6",
+                                                "Datatype": "xsd:double",
+                                                "is about": [
+                                                    {
+                                                        "Pressure": {
+                                                            "hasIdentifier": "charge_3469_quenchingchamber_pressure",
+                                                            "label": "charge_3469_quenchingchamber_pressure"
+                                                        }
+                                                    }
+                                                ],
+                                                "has measurement unit label": [
+                                                    {
+                                                        "Measurement Unit Label": {
+                                                            "hasIdentifier": "unit:MilliBAR",
+                                                            "label": "unit:MilliBAR"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Column Description": {
+                                                "hasIdentifier": "charge_3469_result_table_column_7",
+                                                "label": "charge_3469_result_table_column_7",
+                                                "Datatype": "xsd:double",
+                                                "is about": [
+                                                    {
+                                                        "Pressure": {
+                                                            "hasIdentifier": "charge_3469_heatingchamber_vacuumpressure",
+                                                            "label": "charge_3469_heatingchamber_vacuumpressure"
+                                                        }
+                                                    }
+                                                ],
+                                                "has measurement unit label": [
+                                                    {
+                                                        "Measurement Unit Label": {
+                                                            "hasIdentifier": "unit:MilliBAR",
+                                                            "label": "unit:MilliBAR"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Column Description": {
+                                                "hasIdentifier": "charge_3469_result_table_column_8",
+                                                "label": "charge_3469_result_table_column_8",
+                                                "Datatype": "xsd:double",
+                                                "is about": [
+                                                    {
+                                                        "Temperature": {
+                                                            "hasIdentifier": "charge_3469_heatingchamber_temperature",
+                                                            "label": "charge_3469_heatingchamber_temperature"
+                                                        }
+                                                    }
+                                                ],
+                                                "has measurement unit label": [
+                                                    {
+                                                        "Measurement Unit Label": {
+                                                            "hasIdentifier": "unit:DEG_C",
+                                                            "label": "unit:DEG_C"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Column Description": {
+                                                "hasIdentifier": "charge_3469_result_table_column_10",
+                                                "label": "charge_3469_result_table_column_10",
+                                                "Datatype": "xsd:double",
+                                                "is about": [
+                                                    {
+                                                        "Pressure": {
+                                                            "hasIdentifier": "charge_3469_heatingchamber_pressure",
+                                                            "label": "charge_3469_heatingchamber_pressure"
+                                                        }
+                                                    }
+                                                ],
+                                                "has measurement unit label": [
+                                                    {
+                                                        "Measurement Unit Label": {
+                                                            "hasIdentifier": "unit:MilliBAR",
+                                                            "label": "unit:MilliBAR"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Data Format Specification": {
+                        "hasIdentifier": "charge_3469_dataformatspec",
+                        "label": "charge_3469_dataformatspec",
+                        "has url": "http://edamontology.org/format_3752"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Process": {
+            "hasIdentifier": "charge_3469_step_1",
+            "label": "charge_3469_step_1",
+            "denoted by": [
+                {
+                    "Identifier": {
+                        "hasIdentifier": "charge_3469_step_1_name",
+                        "label": "charge_3469_step_1_name",
+                        "has value": "Evakuieren"
+                    }
+                }
+            ],
+            "proper occurrent part of": [
+                {
+                    "Quenching And Tempering": {
+                        "hasIdentifier": "charge_3469_qt",
+                        "label": "charge_3469_qt"
+                    }
+                }
+            ],
+            "exists at": [
+                {
+                    "Temporal Region": {
+                        "hasIdentifier": "charge_3469_step_1_temporalregion",
+                        "label": "charge_3469_step_1_temporalregion",
+                        "has first instant": [
+                            {
+                                "Temporal Instant": {
+                                    "hasIdentifier": "charge_3469_step_1_temporalinterval_start",
+                                    "label": "charge_3469_step_1_temporalinterval_start",
+                                    "time:inXSDDateTimeStamp": "2022-06-08T13:22:53+02:00"
+                                }
+                            }
+                        ],
+                        "has last instant": [
+                            {
+                                "Temporal Instant": {
+                                    "hasIdentifier": "charge_3469_step_1_temporalinterval_end",
+                                    "label": "charge_3469_step_1_temporalinterval_end",
+                                    "time:inXSDDateTimeStamp": "2022-06-08T13:42:52+02:00"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "has participant": [
+                {
+                    "Furnace": {
+                        "hasIdentifier": "charge_3469_furnace",
+                        "label": "charge_3469_furnace"
+                    }
+                }
+            ],
+            "realizes": [
+                {
+                    "Evacuation Function": {
+                        "hasIdentifier": "charge_3469_evacuationfunction",
+                        "label": "charge_3469_evacuationfunction"
+                    }
+                },
+                {
+                    "Plan": {
+                        "hasIdentifier": "charge_3469_processplan",
+                        "label": "charge_3469_processplan",
+                        "concretizes with": [
+                            {
+                                "Recipe": {
+                                    "hasIdentifier": "charge_3469_evacuatingrecipe",
+                                    "label": "charge_3469_evacuatingrecipe",
+                                    "part of": [
+                                        {
+                                            "Qt Recipe": {
+                                                "hasIdentifier": "charge_3469_qtrecipe",
+                                                "label": "charge_3469_qtrecipe"
+                                            }
+                                        }
+                                    ],
+                                    "has part": [
+                                        {
+                                            "Specification Datum": {
+                                                "hasIdentifier": "charge_3469_recipe_durationsetting",
+                                                "label": "charge_3469_recipe_durationsetting",
+                                                "has value specification": [
+                                                    {
+                                                        "Time Duration": {
+                                                            "hasIdentifier": "charge_3469_recipe_durationsetting_valuespecification",
+                                                            "label": "charge_3469_recipe_durationsetting_valuespecification",
+                                                            "minutes": 20,
+                                                            "temporal unit type": "unit:MIN"
+                                                        }
+                                                    }
+                                                ],
+                                                "is about": [
+                                                    {
+                                                        "Temporal Region": {
+                                                            "hasIdentifier": "charge_3469_step_1_temporalregion",
+                                                            "label": "charge_3469_step_1_temporalregion"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Specification Datum": {
+                                                "hasIdentifier": "charge_3469_recipe_targettemperature",
+                                                "label": "charge_3469_recipe_targettemperature",
+                                                "has value specification": [
+                                                    {
+                                                        "Scalar Value Specification": {
+                                                            "hasIdentifier": "charge_3469_recipe_targettemperature_valuespecification",
+                                                            "label": "charge_3469_recipe_targettemperature_valuespecification",
+                                                            "has measurement unit label": [
+                                                                {
+                                                                    "Measurement Unit Label": {
+                                                                        "hasIdentifier": "unit:DEG_C",
+                                                                        "label": "unit:DEG_C"
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "has specified numeric value": 20
+                                                        }
+                                                    }
+                                                ],
+                                                "is about": [
+                                                    {
+                                                        "Temperature": {
+                                                            "hasIdentifier": "charge_3469_heatingchamber_temperature",
+                                                            "label": "charge_3469_heatingchamber_temperature"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Specification Datum": {
+                                                "hasIdentifier": "charge_3469_recipe_targetvacuumpressure",
+                                                "label": "charge_3469_recipe_targetvacuumpressure",
+                                                "has value specification": [
+                                                    {
+                                                        "Scalar Value Specification": {
+                                                            "hasIdentifier": "charge_3469_recipe_targetvacuumpressure_valuespecification",
+                                                            "label": "charge_3469_recipe_targetvacuumpressure_valuespecification",
+                                                            "has measurement unit label": [
+                                                                {
+                                                                    "Measurement Unit Label": {
+                                                                        "hasIdentifier": "unit:MilliBAR",
+                                                                        "label": "unit:MilliBAR"
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "has specified numeric value": 5
+                                                        }
+                                                    }
+                                                ],
+                                                "is about": [
+                                                    {
+                                                        "Pressure": {
+                                                            "hasIdentifier": "charge_3469_heatingchamber_vacuumpressure",
+                                                            "label": "charge_3469_heatingchamber_vacuumpressure"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Specification Datum": {
+                                                "hasIdentifier": "charge_3469_recipe_targetoiltemperature",
+                                                "label": "charge_3469_recipe_targetoiltemperature",
+                                                "has value specification": [
+                                                    {
+                                                        "Scalar Value Specification": {
+                                                            "hasIdentifier": "charge_3469_recipe_targetoiltemperature_valuespecification",
+                                                            "label": "charge_3469_recipe_targetoiltemperature_valuespecification",
+                                                            "has measurement unit label": [
+                                                                {
+                                                                    "Measurement Unit Label": {
+                                                                        "hasIdentifier": "unit:DEG_C",
+                                                                        "label": "unit:DEG_C"
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "has specified numeric value": 55
+                                                        }
+                                                    }
+                                                ],
+                                                "is about": [
+                                                    {
+                                                        "Temperature": {
+                                                            "hasIdentifier": "charge_3469_heatingchamber_quenchingoil_temperature",
+                                                            "label": "charge_3469_heatingchamber_quenchingoil_temperature"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Device Operation State": {
+                                                "hasIdentifier": "charge_3469_recipe_oilcirculation",
+                                                "label": "charge_3469_recipe_oilcirculation",
+                                                "has part": [
+                                                    {
+                                                        "Device Operation State Value": {
+                                                            "hasIdentifier": "charge_3469_recipe_oilcirculation_value",
+                                                            "label": "charge_3469_recipe_oilcirculation_value",
+                                                            "specified by value": [
+                                                                {
+                                                                    "ON": {
+                                                                        "hasIdentifier": "hto:HTO_0000035",
+                                                                        "label": "hto:HTO_0000035"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Device Operation State": {
+                                                "hasIdentifier": "charge_3469_recipe_oilcirculationupwards",
+                                                "label": "charge_3469_recipe_oilcirculationupwards",
+                                                "has part": [
+                                                    {
+                                                        "Device Operation State Value": {
+                                                            "hasIdentifier": "charge_3469_recipe_oilcirculationupwards_value",
+                                                            "label": "charge_3469_recipe_oilcirculationupwards_value",
+                                                            "specified by value": [
+                                                                {
+                                                                    "OFF": {
+                                                                        "hasIdentifier": "hto:HTO_0000036",
+                                                                        "label": "hto:HTO_0000036"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Device Operation State": {
+                                                "hasIdentifier": "charge_3469_recipe_oilcirculationfast",
+                                                "label": "charge_3469_recipe_oilcirculationfast",
+                                                "has part": [
+                                                    {
+                                                        "Device Operation State Value": {
+                                                            "hasIdentifier": "charge_3469_recipe_oilcirculationfast_value",
+                                                            "label": "charge_3469_recipe_oilcirculationfast_value",
+                                                            "specified by value": [
+                                                                {
+                                                                    "OFF": {
+                                                                        "hasIdentifier": "hto:HTO_0000036",
+                                                                        "label": "hto:HTO_0000036"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Heating": {
+            "hasIdentifier": "charge_3469_step_2",
+            "label": "charge_3469_step_2",
+            "denoted by": [
+                {
+                    "Identifier": {
+                        "hasIdentifier": "charge_3469_step_2_name",
+                        "label": "charge_3469_step_2_name",
+                        "has value": "Heizen auf 850°C mit"
+                    }
+                }
+            ],
+            "proper occurrent part of": [
+                {
+                    "Quenching And Tempering": {
+                        "hasIdentifier": "charge_3469_qt",
+                        "label": "charge_3469_qt"
+                    }
+                }
+            ],
+            "exists at": [
+                {
+                    "Temporal Region": {
+                        "hasIdentifier": "charge_3469_step_2_temporalregion",
+                        "label": "charge_3469_step_2_temporalregion",
+                        "has first instant": [
+                            {
+                                "Temporal Instant": {
+                                    "hasIdentifier": "charge_3469_step_2_temporalinterval_start",
+                                    "label": "charge_3469_step_2_temporalinterval_start",
+                                    "time:inXSDDateTimeStamp": "2022-06-08T13:42:52+02:00"
+                                }
+                            }
+                        ],
+                        "has last instant": [
+                            {
+                                "Temporal Instant": {
+                                    "hasIdentifier": "charge_3469_step_2_temporalinterval_end",
+                                    "label": "charge_3469_step_2_temporalinterval_end",
+                                    "time:inXSDDateTimeStamp": "2022-06-08T14:26:50+02:00"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "has participant": [
+                {
+                    "Furnace": {
+                        "hasIdentifier": "charge_3469_furnace",
+                        "label": "charge_3469_furnace"
+                    }
+                }
+            ],
+            "realizes": [
+                {
+                    "Heating Function": {
+                        "hasIdentifier": "charge_3469_heatingfunction",
+                        "label": "charge_3469_heatingfunction"
+                    }
+                },
+                {
+                    "Plan": {
+                        "hasIdentifier": "charge_3469_heatingplan",
+                        "label": "charge_3469_heatingplan",
+                        "concretizes with": [
+                            {
+                                "Heating Recipe": {
+                                    "hasIdentifier": "charge_3469_heatingrecipe",
+                                    "label": "charge_3469_heatingrecipe",
+                                    "part of": [
+                                        {
+                                            "Qt Recipe": {
+                                                "hasIdentifier": "charge_3469_qtrecipe",
+                                                "label": "charge_3469_qtrecipe"
+                                            }
+                                        }
+                                    ],
+                                    "has part": [
+                                        {
+                                            "Specification Datum": {
+                                                "hasIdentifier": "charge_3469_heatingrecipe_temperaturechangeratespecification",
+                                                "label": "charge_3469_heatingrecipe_temperaturechangeratespecification",
+                                                "has value specification": [
+                                                    {
+                                                        "Scalar Value Specification": {
+                                                            "hasIdentifier": "charge_3469_heatingrecipe_temperaturechangeratespecification_valuespecification",
+                                                            "label": "charge_3469_heatingrecipe_temperaturechangeratespecification_valuespecification",
+                                                            "has measurement unit label": [
+                                                                {
+                                                                    "Measurement Unit Label": {
+                                                                        "hasIdentifier": "unit:DEG_C_PER_MIN",
+                                                                        "label": "unit:DEG_C_PER_MIN"
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "has specified numeric value": 15
+                                                        }
+                                                    },
+                                                    {
+                                                        "Scalar Value Specification": {
+                                                            "hasIdentifier": "charge_3469_heatingrecipe_targettemperature_valuespecification",
+                                                            "label": "charge_3469_heatingrecipe_targettemperature_valuespecification",
+                                                            "has measurement unit label": [
+                                                                {
+                                                                    "Measurement Unit Label": {
+                                                                        "hasIdentifier": "unit:DEG_C",
+                                                                        "label": "unit:DEG_C"
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "has specified numeric value": 845,
+                                                            "is about": [
+                                                                {
+                                                                    "Temperature": {
+                                                                        "hasIdentifier": "charge_3469_heatingchamber_temperature",
+                                                                        "label": "charge_3469_heatingchamber_temperature"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Specification Datum": {
+                                                "hasIdentifier": "charge_3469_heatingrecipe_targetvacuumpressure",
+                                                "label": "charge_3469_heatingrecipe_targetvacuumpressure",
+                                                "has value specification": [
+                                                    {
+                                                        "Scalar Value Specification": {
+                                                            "hasIdentifier": "charge_3469_heatingrecipe_targetvacuumpressure_valuespecification",
+                                                            "label": "charge_3469_heatingrecipe_targetvacuumpressure_valuespecification",
+                                                            "has measurement unit label": [
+                                                                {
+                                                                    "Measurement Unit Label": {
+                                                                        "hasIdentifier": "unit:MilliBAR",
+                                                                        "label": "unit:MilliBAR"
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "has specified numeric value": 5
+                                                        }
+                                                    }
+                                                ],
+                                                "is about": [
+                                                    {
+                                                        "Pressure": {
+                                                            "hasIdentifier": "charge_3469_heatingchamber_vacuumpressure",
+                                                            "label": "charge_3469_heatingchamber_vacuumpressure"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Specification Datum": {
+                                                "hasIdentifier": "charge_3469_heatingrecipe_targetoiltemperature",
+                                                "label": "charge_3469_heatingrecipe_targetoiltemperature",
+                                                "has value specification": [
+                                                    {
+                                                        "Scalar Value Specification": {
+                                                            "hasIdentifier": "charge_3469_heatingrecipe_targetoiltemperature_valuespecification",
+                                                            "label": "charge_3469_heatingrecipe_targetoiltemperature_valuespecification",
+                                                            "has measurement unit label": [
+                                                                {
+                                                                    "Measurement Unit Label": {
+                                                                        "hasIdentifier": "unit:DEG_C",
+                                                                        "label": "unit:DEG_C"
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "has specified numeric value": 55
+                                                        }
+                                                    }
+                                                ],
+                                                "is about": [
+                                                    {
+                                                        "Temperature": {
+                                                            "hasIdentifier": "charge_3469_heatingchamber_quenchingoil_temperature",
+                                                            "label": "charge_3469_heatingchamber_quenchingoil_temperature"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Device Operation State": {
+                                                "hasIdentifier": "charge_3469_heatingrecipe_oilcirculation",
+                                                "label": "charge_3469_heatingrecipe_oilcirculation",
+                                                "has part": [
+                                                    {
+                                                        "Device Operation State Value": {
+                                                            "hasIdentifier": "charge_3469_heatingrecipe_oilcirculation_value",
+                                                            "label": "charge_3469_heatingrecipe_oilcirculation_value",
+                                                            "specified by value": [
+                                                                {
+                                                                    "ON": {
+                                                                        "hasIdentifier": "hto:HTO_0000035",
+                                                                        "label": "hto:HTO_0000035"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Device Operation State": {
+                                                "hasIdentifier": "charge_3469_heatingrecipe_oilcirculationupwards",
+                                                "label": "charge_3469_heatingrecipe_oilcirculationupwards",
+                                                "has part": [
+                                                    {
+                                                        "Device Operation State Value": {
+                                                            "hasIdentifier": "charge_3469_heatingrecipe_oilcirculationupwards_value",
+                                                            "label": "charge_3469_heatingrecipe_oilcirculationupwards_value",
+                                                            "specified by value": [
+                                                                {
+                                                                    "OFF": {
+                                                                        "hasIdentifier": "hto:HTO_0000036",
+                                                                        "label": "hto:HTO_0000036"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Device Operation State": {
+                                                "hasIdentifier": "charge_3469_heatingrecipe_oilcirculationfast",
+                                                "label": "charge_3469_heatingrecipe_oilcirculationfast",
+                                                "has part": [
+                                                    {
+                                                        "Device Operation State Value": {
+                                                            "hasIdentifier": "charge_3469_heatingrecipe_oilcirculationfast_value",
+                                                            "label": "charge_3469_heatingrecipe_oilcirculationfast_value",
+                                                            "specified by value": [
+                                                                {
+                                                                    "OFF": {
+                                                                        "hasIdentifier": "hto:HTO_0000036",
+                                                                        "label": "hto:HTO_0000036"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "preceded by": [
+                {
+                    "Process": {
+                        "hasIdentifier": "charge_3469_step_1",
+                        "label": "charge_3469_step_1"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Soaking": {
+            "hasIdentifier": "charge_3469_step_3",
+            "label": "charge_3469_step_3",
+            "denoted by": [
+                {
+                    "Identifier": {
+                        "hasIdentifier": "charge_3469_step_3_name",
+                        "label": "charge_3469_step_3_name",
+                        "has value": "Durchwärmen bei 850°"
+                    }
+                }
+            ],
+            "proper occurrent part of": [
+                {
+                    "Quenching And Tempering": {
+                        "hasIdentifier": "charge_3469_qt",
+                        "label": "charge_3469_qt"
+                    }
+                }
+            ],
+            "exists at": [
+                {
+                    "Temporal Region": {
+                        "hasIdentifier": "charge_3469_step_3_temporalregion",
+                        "label": "charge_3469_step_3_temporalregion",
+                        "has first instant": [
+                            {
+                                "Temporal Instant": {
+                                    "hasIdentifier": "charge_3469_step_3_temporalinterval_start",
+                                    "label": "charge_3469_step_3_temporalinterval_start",
+                                    "time:inXSDDateTimeStamp": "2022-06-08T14:26:50+02:00"
+                                }
+                            }
+                        ],
+                        "has last instant": [
+                            {
+                                "Temporal Instant": {
+                                    "hasIdentifier": "charge_3469_step_3_temporalinterval_end",
+                                    "label": "charge_3469_step_3_temporalinterval_end",
+                                    "time:inXSDDateTimeStamp": "2022-06-08T14:41:50+02:00"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "has participant": [
+                {
+                    "Furnace": {
+                        "hasIdentifier": "charge_3469_furnace",
+                        "label": "charge_3469_furnace"
+                    }
+                }
+            ],
+            "realizes": [
+                {
+                    "Holding Function": {
+                        "hasIdentifier": "charge_3469_holdingfunction",
+                        "label": "charge_3469_holdingfunction"
+                    }
+                },
+                {
+                    "Plan": {
+                        "hasIdentifier": "charge_3469_soakingplan",
+                        "label": "charge_3469_soakingplan",
+                        "concretizes with": [
+                            {
+                                "Soaking Recipe": {
+                                    "hasIdentifier": "charge_3469_soakingrecipe",
+                                    "label": "charge_3469_soakingrecipe",
+                                    "part of": [
+                                        {
+                                            "Qt Recipe": {
+                                                "hasIdentifier": "charge_3469_qtrecipe",
+                                                "label": "charge_3469_qtrecipe"
+                                            }
+                                        }
+                                    ],
+                                    "has part": [
+                                        {
+                                            "Specification Datum": {
+                                                "hasIdentifier": "charge_3469_soakingrecipe_durationsetting",
+                                                "label": "charge_3469_soakingrecipe_durationsetting",
+                                                "has value specification": [
+                                                    {
+                                                        "Time Duration": {
+                                                            "hasIdentifier": "charge_3469_soakingrecipe_durationsetting_valuespecification",
+                                                            "label": "charge_3469_soakingrecipe_durationsetting_valuespecification",
+                                                            "minutes": 15,
+                                                            "temporal unit type": "unit:MIN"
+                                                        }
+                                                    }
+                                                ],
+                                                "is about": [
+                                                    {
+                                                        "Temporal Region": {
+                                                            "hasIdentifier": "charge_3469_step_3_temporalregion",
+                                                            "label": "charge_3469_step_3_temporalregion"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Specification Datum": {
+                                                "hasIdentifier": "charge_3469_soakingrecipe_targettemperature",
+                                                "label": "charge_3469_soakingrecipe_targettemperature",
+                                                "has value specification": [
+                                                    {
+                                                        "Scalar Value Specification": {
+                                                            "hasIdentifier": "charge_3469_soakingrecipe_targettemperature_valuespecification",
+                                                            "label": "charge_3469_soakingrecipe_targettemperature_valuespecification",
+                                                            "has measurement unit label": [
+                                                                {
+                                                                    "Measurement Unit Label": {
+                                                                        "hasIdentifier": "unit:DEG_C",
+                                                                        "label": "unit:DEG_C"
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "has specified numeric value": 850
+                                                        }
+                                                    }
+                                                ],
+                                                "is about": [
+                                                    {
+                                                        "Temperature": {
+                                                            "hasIdentifier": "charge_3469_heatingchamber_temperature",
+                                                            "label": "charge_3469_heatingchamber_temperature"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Specification Datum": {
+                                                "hasIdentifier": "charge_3469_soakingrecipe_targetvacuumpressure",
+                                                "label": "charge_3469_soakingrecipe_targetvacuumpressure",
+                                                "has value specification": [
+                                                    {
+                                                        "Scalar Value Specification": {
+                                                            "hasIdentifier": "charge_3469_soakingrecipe_targetvacuumpressure_valuespecification",
+                                                            "label": "charge_3469_soakingrecipe_targetvacuumpressure_valuespecification",
+                                                            "has measurement unit label": [
+                                                                {
+                                                                    "Measurement Unit Label": {
+                                                                        "hasIdentifier": "unit:MilliBAR",
+                                                                        "label": "unit:MilliBAR"
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "has specified numeric value": 5
+                                                        }
+                                                    }
+                                                ],
+                                                "is about": [
+                                                    {
+                                                        "Pressure": {
+                                                            "hasIdentifier": "charge_3469_heatingchamber_vacuumpressure",
+                                                            "label": "charge_3469_heatingchamber_vacuumpressure"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Specification Datum": {
+                                                "hasIdentifier": "charge_3469_soakingrecipe_targetoiltemperature",
+                                                "label": "charge_3469_soakingrecipe_targetoiltemperature",
+                                                "has value specification": [
+                                                    {
+                                                        "Scalar Value Specification": {
+                                                            "hasIdentifier": "charge_3469_soakingrecipe_targetoiltemperature_valuespecification",
+                                                            "label": "charge_3469_soakingrecipe_targetoiltemperature_valuespecification",
+                                                            "has measurement unit label": [
+                                                                {
+                                                                    "Measurement Unit Label": {
+                                                                        "hasIdentifier": "unit:DEG_C",
+                                                                        "label": "unit:DEG_C"
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "has specified numeric value": 55
+                                                        }
+                                                    }
+                                                ],
+                                                "is about": [
+                                                    {
+                                                        "Temperature": {
+                                                            "hasIdentifier": "charge_3469_heatingchamber_quenchingoil_temperature",
+                                                            "label": "charge_3469_heatingchamber_quenchingoil_temperature"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Device Operation State": {
+                                                "hasIdentifier": "charge_3469_soakingrecipe_oilcirculation",
+                                                "label": "charge_3469_soakingrecipe_oilcirculation",
+                                                "has part": [
+                                                    {
+                                                        "Device Operation State Value": {
+                                                            "hasIdentifier": "charge_3469_soakingrecipe_oilcirculation_value",
+                                                            "label": "charge_3469_soakingrecipe_oilcirculation_value",
+                                                            "specified by value": [
+                                                                {
+                                                                    "ON": {
+                                                                        "hasIdentifier": "hto:HTO_0000035",
+                                                                        "label": "hto:HTO_0000035"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Device Operation State": {
+                                                "hasIdentifier": "charge_3469_soakingrecipe_oilcirculationupwards",
+                                                "label": "charge_3469_soakingrecipe_oilcirculationupwards",
+                                                "has part": [
+                                                    {
+                                                        "Device Operation State Value": {
+                                                            "hasIdentifier": "charge_3469_soakingrecipe_oilcirculationupwards_value",
+                                                            "label": "charge_3469_soakingrecipe_oilcirculationupwards_value",
+                                                            "specified by value": [
+                                                                {
+                                                                    "OFF": {
+                                                                        "hasIdentifier": "hto:HTO_0000036",
+                                                                        "label": "hto:HTO_0000036"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Device Operation State": {
+                                                "hasIdentifier": "charge_3469_soakingrecipe_oilcirculationfast",
+                                                "label": "charge_3469_soakingrecipe_oilcirculationfast",
+                                                "has part": [
+                                                    {
+                                                        "Device Operation State Value": {
+                                                            "hasIdentifier": "charge_3469_soakingrecipe_oilcirculationfast_value",
+                                                            "label": "charge_3469_soakingrecipe_oilcirculationfast_value",
+                                                            "specified by value": [
+                                                                {
+                                                                    "OFF": {
+                                                                        "hasIdentifier": "hto:HTO_0000036",
+                                                                        "label": "hto:HTO_0000036"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "preceded by": [
+                {
+                    "Heating": {
+                        "hasIdentifier": "charge_3469_step_2",
+                        "label": "charge_3469_step_2"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Heating": {
+            "hasIdentifier": "charge_3469_step_4",
+            "label": "charge_3469_step_4",
+            "denoted by": [
+                {
+                    "Identifier": {
+                        "hasIdentifier": "charge_3469_step_4_name",
+                        "label": "charge_3469_step_4_name",
+                        "has value": "Heizen auf 1075°C mi"
+                    }
+                }
+            ],
+            "proper occurrent part of": [
+                {
+                    "Quenching And Tempering": {
+                        "hasIdentifier": "charge_3469_qt",
+                        "label": "charge_3469_qt"
+                    }
+                }
+            ],
+            "exists at": [
+                {
+                    "Temporal Region": {
+                        "hasIdentifier": "charge_3469_step_4_temporalregion",
+                        "label": "charge_3469_step_4_temporalregion",
+                        "has first instant": [
+                            {
+                                "Temporal Instant": {
+                                    "hasIdentifier": "charge_3469_step_4_temporalinterval_start",
+                                    "label": "charge_3469_step_4_temporalinterval_start",
+                                    "time:inXSDDateTimeStamp": "2022-06-08T14:41:50+02:00"
+                                }
+                            }
+                        ],
+                        "has last instant": [
+                            {
+                                "Temporal Instant": {
+                                    "hasIdentifier": "charge_3469_step_4_temporalinterval_end",
+                                    "label": "charge_3469_step_4_temporalinterval_end",
+                                    "time:inXSDDateTimeStamp": "2022-06-08T14:56:38+02:00"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "has participant": [
+                {
+                    "Furnace": {
+                        "hasIdentifier": "charge_3469_furnace",
+                        "label": "charge_3469_furnace"
+                    }
+                }
+            ],
+            "realizes": [
+                {
+                    "Heating Function": {
+                        "hasIdentifier": "charge_3469_heatingfunction",
+                        "label": "charge_3469_heatingfunction"
+                    }
+                },
+                {
+                    "Plan": {
+                        "hasIdentifier": "charge_3469_heatingplan",
+                        "label": "charge_3469_heatingplan",
+                        "concretizes with": [
+                            {
+                                "Heating Recipe": {
+                                    "hasIdentifier": "charge_3469_heatingrecipe",
+                                    "label": "charge_3469_heatingrecipe",
+                                    "part of": [
+                                        {
+                                            "Qt Recipe": {
+                                                "hasIdentifier": "charge_3469_qtrecipe",
+                                                "label": "charge_3469_qtrecipe"
+                                            }
+                                        }
+                                    ],
+                                    "has part": [
+                                        {
+                                            "Specification Datum": {
+                                                "hasIdentifier": "charge_3469_heatingrecipe_temperaturechangeratespecification",
+                                                "label": "charge_3469_heatingrecipe_temperaturechangeratespecification",
+                                                "has value specification": [
+                                                    {
+                                                        "Scalar Value Specification": {
+                                                            "hasIdentifier": "charge_3469_heatingrecipe_temperaturechangeratespecification_valuespecification",
+                                                            "label": "charge_3469_heatingrecipe_temperaturechangeratespecification_valuespecification",
+                                                            "has measurement unit label": [
+                                                                {
+                                                                    "Measurement Unit Label": {
+                                                                        "hasIdentifier": "unit:DEG_C_PER_MIN",
+                                                                        "label": "unit:DEG_C_PER_MIN"
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "has specified numeric value": 15
+                                                        }
+                                                    },
+                                                    {
+                                                        "Scalar Value Specification": {
+                                                            "hasIdentifier": "charge_3469_heatingrecipe_targettemperature_valuespecification",
+                                                            "label": "charge_3469_heatingrecipe_targettemperature_valuespecification",
+                                                            "has measurement unit label": [
+                                                                {
+                                                                    "Measurement Unit Label": {
+                                                                        "hasIdentifier": "unit:DEG_C",
+                                                                        "label": "unit:DEG_C"
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "has specified numeric value": 1070,
+                                                            "is about": [
+                                                                {
+                                                                    "Temperature": {
+                                                                        "hasIdentifier": "charge_3469_heatingchamber_temperature",
+                                                                        "label": "charge_3469_heatingchamber_temperature"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Specification Datum": {
+                                                "hasIdentifier": "charge_3469_heatingrecipe_targetvacuumpressure",
+                                                "label": "charge_3469_heatingrecipe_targetvacuumpressure",
+                                                "has value specification": [
+                                                    {
+                                                        "Scalar Value Specification": {
+                                                            "hasIdentifier": "charge_3469_heatingrecipe_targetvacuumpressure_valuespecification",
+                                                            "label": "charge_3469_heatingrecipe_targetvacuumpressure_valuespecification",
+                                                            "has measurement unit label": [
+                                                                {
+                                                                    "Measurement Unit Label": {
+                                                                        "hasIdentifier": "unit:MilliBAR",
+                                                                        "label": "unit:MilliBAR"
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "has specified numeric value": 5
+                                                        }
+                                                    }
+                                                ],
+                                                "is about": [
+                                                    {
+                                                        "Pressure": {
+                                                            "hasIdentifier": "charge_3469_heatingchamber_vacuumpressure",
+                                                            "label": "charge_3469_heatingchamber_vacuumpressure"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Specification Datum": {
+                                                "hasIdentifier": "charge_3469_heatingrecipe_targetoiltemperature",
+                                                "label": "charge_3469_heatingrecipe_targetoiltemperature",
+                                                "has value specification": [
+                                                    {
+                                                        "Scalar Value Specification": {
+                                                            "hasIdentifier": "charge_3469_heatingrecipe_targetoiltemperature_valuespecification",
+                                                            "label": "charge_3469_heatingrecipe_targetoiltemperature_valuespecification",
+                                                            "has measurement unit label": [
+                                                                {
+                                                                    "Measurement Unit Label": {
+                                                                        "hasIdentifier": "unit:DEG_C",
+                                                                        "label": "unit:DEG_C"
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "has specified numeric value": 55
+                                                        }
+                                                    }
+                                                ],
+                                                "is about": [
+                                                    {
+                                                        "Temperature": {
+                                                            "hasIdentifier": "charge_3469_heatingchamber_quenchingoil_temperature",
+                                                            "label": "charge_3469_heatingchamber_quenchingoil_temperature"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Device Operation State": {
+                                                "hasIdentifier": "charge_3469_heatingrecipe_oilcirculation",
+                                                "label": "charge_3469_heatingrecipe_oilcirculation",
+                                                "has part": [
+                                                    {
+                                                        "Device Operation State Value": {
+                                                            "hasIdentifier": "charge_3469_heatingrecipe_oilcirculation_value",
+                                                            "label": "charge_3469_heatingrecipe_oilcirculation_value",
+                                                            "specified by value": [
+                                                                {
+                                                                    "ON": {
+                                                                        "hasIdentifier": "hto:HTO_0000035",
+                                                                        "label": "hto:HTO_0000035"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Device Operation State": {
+                                                "hasIdentifier": "charge_3469_heatingrecipe_oilcirculationupwards",
+                                                "label": "charge_3469_heatingrecipe_oilcirculationupwards",
+                                                "has part": [
+                                                    {
+                                                        "Device Operation State Value": {
+                                                            "hasIdentifier": "charge_3469_heatingrecipe_oilcirculationupwards_value",
+                                                            "label": "charge_3469_heatingrecipe_oilcirculationupwards_value",
+                                                            "specified by value": [
+                                                                {
+                                                                    "OFF": {
+                                                                        "hasIdentifier": "hto:HTO_0000036",
+                                                                        "label": "hto:HTO_0000036"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Device Operation State": {
+                                                "hasIdentifier": "charge_3469_heatingrecipe_oilcirculationfast",
+                                                "label": "charge_3469_heatingrecipe_oilcirculationfast",
+                                                "has part": [
+                                                    {
+                                                        "Device Operation State Value": {
+                                                            "hasIdentifier": "charge_3469_heatingrecipe_oilcirculationfast_value",
+                                                            "label": "charge_3469_heatingrecipe_oilcirculationfast_value",
+                                                            "specified by value": [
+                                                                {
+                                                                    "OFF": {
+                                                                        "hasIdentifier": "hto:HTO_0000036",
+                                                                        "label": "hto:HTO_0000036"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "preceded by": [
+                {
+                    "Soaking": {
+                        "hasIdentifier": "charge_3469_step_3",
+                        "label": "charge_3469_step_3"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Soaking": {
+            "hasIdentifier": "charge_3469_step_5",
+            "label": "charge_3469_step_5",
+            "denoted by": [
+                {
+                    "Identifier": {
+                        "hasIdentifier": "charge_3469_step_5_name",
+                        "label": "charge_3469_step_5_name",
+                        "has value": "Durchwärmen bei 1075"
+                    }
+                }
+            ],
+            "proper occurrent part of": [
+                {
+                    "Quenching And Tempering": {
+                        "hasIdentifier": "charge_3469_qt",
+                        "label": "charge_3469_qt"
+                    }
+                }
+            ],
+            "exists at": [
+                {
+                    "Temporal Region": {
+                        "hasIdentifier": "charge_3469_step_5_temporalregion",
+                        "label": "charge_3469_step_5_temporalregion",
+                        "has first instant": [
+                            {
+                                "Temporal Instant": {
+                                    "hasIdentifier": "charge_3469_step_5_temporalinterval_start",
+                                    "label": "charge_3469_step_5_temporalinterval_start",
+                                    "time:inXSDDateTimeStamp": "2022-06-08T14:56:38+02:00"
+                                }
+                            }
+                        ],
+                        "has last instant": [
+                            {
+                                "Temporal Instant": {
+                                    "hasIdentifier": "charge_3469_step_5_temporalinterval_end",
+                                    "label": "charge_3469_step_5_temporalinterval_end",
+                                    "time:inXSDDateTimeStamp": "2022-06-08T15:56:37+02:00"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "has participant": [
+                {
+                    "Furnace": {
+                        "hasIdentifier": "charge_3469_furnace",
+                        "label": "charge_3469_furnace"
+                    }
+                }
+            ],
+            "realizes": [
+                {
+                    "Holding Function": {
+                        "hasIdentifier": "charge_3469_holdingfunction",
+                        "label": "charge_3469_holdingfunction"
+                    }
+                },
+                {
+                    "Plan": {
+                        "hasIdentifier": "charge_3469_soakingplan",
+                        "label": "charge_3469_soakingplan",
+                        "concretizes with": [
+                            {
+                                "Soaking Recipe": {
+                                    "hasIdentifier": "charge_3469_soakingrecipe",
+                                    "label": "charge_3469_soakingrecipe",
+                                    "part of": [
+                                        {
+                                            "Qt Recipe": {
+                                                "hasIdentifier": "charge_3469_qtrecipe",
+                                                "label": "charge_3469_qtrecipe"
+                                            }
+                                        }
+                                    ],
+                                    "has part": [
+                                        {
+                                            "Specification Datum": {
+                                                "hasIdentifier": "charge_3469_soakingrecipe_durationsetting",
+                                                "label": "charge_3469_soakingrecipe_durationsetting",
+                                                "has value specification": [
+                                                    {
+                                                        "Time Duration": {
+                                                            "hasIdentifier": "charge_3469_soakingrecipe_durationsetting_valuespecification",
+                                                            "label": "charge_3469_soakingrecipe_durationsetting_valuespecification",
+                                                            "minutes": 60,
+                                                            "temporal unit type": "unit:MIN"
+                                                        }
+                                                    }
+                                                ],
+                                                "is about": [
+                                                    {
+                                                        "Temporal Region": {
+                                                            "hasIdentifier": "charge_3469_step_5_temporalregion",
+                                                            "label": "charge_3469_step_5_temporalregion"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Specification Datum": {
+                                                "hasIdentifier": "charge_3469_soakingrecipe_targettemperature",
+                                                "label": "charge_3469_soakingrecipe_targettemperature",
+                                                "has value specification": [
+                                                    {
+                                                        "Scalar Value Specification": {
+                                                            "hasIdentifier": "charge_3469_soakingrecipe_targettemperature_valuespecification",
+                                                            "label": "charge_3469_soakingrecipe_targettemperature_valuespecification",
+                                                            "has measurement unit label": [
+                                                                {
+                                                                    "Measurement Unit Label": {
+                                                                        "hasIdentifier": "unit:DEG_C",
+                                                                        "label": "unit:DEG_C"
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "has specified numeric value": 1075
+                                                        }
+                                                    }
+                                                ],
+                                                "is about": [
+                                                    {
+                                                        "Temperature": {
+                                                            "hasIdentifier": "charge_3469_heatingchamber_temperature",
+                                                            "label": "charge_3469_heatingchamber_temperature"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Specification Datum": {
+                                                "hasIdentifier": "charge_3469_soakingrecipe_targetvacuumpressure",
+                                                "label": "charge_3469_soakingrecipe_targetvacuumpressure",
+                                                "has value specification": [
+                                                    {
+                                                        "Scalar Value Specification": {
+                                                            "hasIdentifier": "charge_3469_soakingrecipe_targetvacuumpressure_valuespecification",
+                                                            "label": "charge_3469_soakingrecipe_targetvacuumpressure_valuespecification",
+                                                            "has measurement unit label": [
+                                                                {
+                                                                    "Measurement Unit Label": {
+                                                                        "hasIdentifier": "unit:MilliBAR",
+                                                                        "label": "unit:MilliBAR"
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "has specified numeric value": 5
+                                                        }
+                                                    }
+                                                ],
+                                                "is about": [
+                                                    {
+                                                        "Pressure": {
+                                                            "hasIdentifier": "charge_3469_heatingchamber_vacuumpressure",
+                                                            "label": "charge_3469_heatingchamber_vacuumpressure"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Specification Datum": {
+                                                "hasIdentifier": "charge_3469_soakingrecipe_targetoiltemperature",
+                                                "label": "charge_3469_soakingrecipe_targetoiltemperature",
+                                                "has value specification": [
+                                                    {
+                                                        "Scalar Value Specification": {
+                                                            "hasIdentifier": "charge_3469_soakingrecipe_targetoiltemperature_valuespecification",
+                                                            "label": "charge_3469_soakingrecipe_targetoiltemperature_valuespecification",
+                                                            "has measurement unit label": [
+                                                                {
+                                                                    "Measurement Unit Label": {
+                                                                        "hasIdentifier": "unit:DEG_C",
+                                                                        "label": "unit:DEG_C"
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "has specified numeric value": 55
+                                                        }
+                                                    }
+                                                ],
+                                                "is about": [
+                                                    {
+                                                        "Temperature": {
+                                                            "hasIdentifier": "charge_3469_heatingchamber_quenchingoil_temperature",
+                                                            "label": "charge_3469_heatingchamber_quenchingoil_temperature"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Device Operation State": {
+                                                "hasIdentifier": "charge_3469_soakingrecipe_oilcirculation",
+                                                "label": "charge_3469_soakingrecipe_oilcirculation",
+                                                "has part": [
+                                                    {
+                                                        "Device Operation State Value": {
+                                                            "hasIdentifier": "charge_3469_soakingrecipe_oilcirculation_value",
+                                                            "label": "charge_3469_soakingrecipe_oilcirculation_value",
+                                                            "specified by value": [
+                                                                {
+                                                                    "ON": {
+                                                                        "hasIdentifier": "hto:HTO_0000035",
+                                                                        "label": "hto:HTO_0000035"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Device Operation State": {
+                                                "hasIdentifier": "charge_3469_soakingrecipe_oilcirculationupwards",
+                                                "label": "charge_3469_soakingrecipe_oilcirculationupwards",
+                                                "has part": [
+                                                    {
+                                                        "Device Operation State Value": {
+                                                            "hasIdentifier": "charge_3469_soakingrecipe_oilcirculationupwards_value",
+                                                            "label": "charge_3469_soakingrecipe_oilcirculationupwards_value",
+                                                            "specified by value": [
+                                                                {
+                                                                    "OFF": {
+                                                                        "hasIdentifier": "hto:HTO_0000036",
+                                                                        "label": "hto:HTO_0000036"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Device Operation State": {
+                                                "hasIdentifier": "charge_3469_soakingrecipe_oilcirculationfast",
+                                                "label": "charge_3469_soakingrecipe_oilcirculationfast",
+                                                "has part": [
+                                                    {
+                                                        "Device Operation State Value": {
+                                                            "hasIdentifier": "charge_3469_soakingrecipe_oilcirculationfast_value",
+                                                            "label": "charge_3469_soakingrecipe_oilcirculationfast_value",
+                                                            "specified by value": [
+                                                                {
+                                                                    "OFF": {
+                                                                        "hasIdentifier": "hto:HTO_0000036",
+                                                                        "label": "hto:HTO_0000036"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "preceded by": [
+                {
+                    "Heating": {
+                        "hasIdentifier": "charge_3469_step_4",
+                        "label": "charge_3469_step_4"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Cooling": {
+            "hasIdentifier": "charge_3469_step_6",
+            "label": "charge_3469_step_6",
+            "denoted by": [
+                {
+                    "Identifier": {
+                        "hasIdentifier": "charge_3469_step_6_name",
+                        "label": "charge_3469_step_6_name",
+                        "has value": "Absenken auf 850°C m"
+                    }
+                }
+            ],
+            "proper occurrent part of": [
+                {
+                    "Quenching And Tempering": {
+                        "hasIdentifier": "charge_3469_qt",
+                        "label": "charge_3469_qt"
+                    }
+                }
+            ],
+            "exists at": [
+                {
+                    "Temporal Region": {
+                        "hasIdentifier": "charge_3469_step_6_temporalregion",
+                        "label": "charge_3469_step_6_temporalregion",
+                        "has first instant": [
+                            {
+                                "Temporal Instant": {
+                                    "hasIdentifier": "charge_3469_step_6_temporalinterval_start",
+                                    "label": "charge_3469_step_6_temporalinterval_start",
+                                    "time:inXSDDateTimeStamp": "2022-06-08T15:56:37+02:00"
+                                }
+                            }
+                        ],
+                        "has last instant": [
+                            {
+                                "Temporal Instant": {
+                                    "hasIdentifier": "charge_3469_step_6_temporalinterval_end",
+                                    "label": "charge_3469_step_6_temporalinterval_end",
+                                    "time:inXSDDateTimeStamp": "2022-06-08T15:56:38+02:00"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "has participant": [
+                {
+                    "Furnace": {
+                        "hasIdentifier": "charge_3469_furnace",
+                        "label": "charge_3469_furnace"
+                    }
+                }
+            ],
+            "realizes": [
+                {
+                    "Cooling Function": {
+                        "hasIdentifier": "charge_3469_coolingfunction",
+                        "label": "charge_3469_coolingfunction"
+                    }
+                },
+                {
+                    "Plan": {
+                        "hasIdentifier": "charge_3469_coolingplan",
+                        "label": "charge_3469_coolingplan",
+                        "concretizes with": [
+                            {
+                                "Cooling Recipe": {
+                                    "hasIdentifier": "charge_3469_coolingrecipe",
+                                    "label": "charge_3469_coolingrecipe",
+                                    "part of": [
+                                        {
+                                            "Qt Recipe": {
+                                                "hasIdentifier": "charge_3469_qtrecipe",
+                                                "label": "charge_3469_qtrecipe"
+                                            }
+                                        }
+                                    ],
+                                    "has part": [
+                                        {
+                                            "Specification Datum": {
+                                                "hasIdentifier": "charge_3469_coolingrecipe_temperaturechangeratespecification",
+                                                "label": "charge_3469_coolingrecipe_temperaturechangeratespecification",
+                                                "has value specification": [
+                                                    {
+                                                        "Scalar Value Specification": {
+                                                            "hasIdentifier": "charge_3469_coolingrecipe_temperaturechangeratespecification_valuespecification",
+                                                            "label": "charge_3469_coolingrecipe_temperaturechangeratespecification_valuespecification",
+                                                            "has measurement unit label": [
+                                                                {
+                                                                    "Measurement Unit Label": {
+                                                                        "hasIdentifier": "unit:DEG_C_PER_MIN",
+                                                                        "label": "unit:DEG_C_PER_MIN"
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "has specified numeric value": 5
+                                                        }
+                                                    },
+                                                    {
+                                                        "Scalar Value Specification": {
+                                                            "hasIdentifier": "charge_3469_coolingrecipe_targettemperature_valuespecification",
+                                                            "label": "charge_3469_coolingrecipe_targettemperature_valuespecification",
+                                                            "has measurement unit label": [
+                                                                {
+                                                                    "Measurement Unit Label": {
+                                                                        "hasIdentifier": "unit:DEG_C",
+                                                                        "label": "unit:DEG_C"
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "has specified numeric value": 855,
+                                                            "is about": [
+                                                                {
+                                                                    "Temperature": {
+                                                                        "hasIdentifier": "charge_3469_heatingchamber_temperature",
+                                                                        "label": "charge_3469_heatingchamber_temperature"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Specification Datum": {
+                                                "hasIdentifier": "charge_3469_coolingrecipe_targetvacuumpressure",
+                                                "label": "charge_3469_coolingrecipe_targetvacuumpressure",
+                                                "has value specification": [
+                                                    {
+                                                        "Scalar Value Specification": {
+                                                            "hasIdentifier": "charge_3469_coolingrecipe_targetvacuumpressure_valuespecification",
+                                                            "label": "charge_3469_coolingrecipe_targetvacuumpressure_valuespecification",
+                                                            "has measurement unit label": [
+                                                                {
+                                                                    "Measurement Unit Label": {
+                                                                        "hasIdentifier": "unit:MilliBAR",
+                                                                        "label": "unit:MilliBAR"
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "has specified numeric value": 5
+                                                        }
+                                                    }
+                                                ],
+                                                "is about": [
+                                                    {
+                                                        "Pressure": {
+                                                            "hasIdentifier": "charge_3469_heatingchamber_vacuumpressure",
+                                                            "label": "charge_3469_heatingchamber_vacuumpressure"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Specification Datum": {
+                                                "hasIdentifier": "charge_3469_coolingrecipe_targetoiltemperature",
+                                                "label": "charge_3469_coolingrecipe_targetoiltemperature",
+                                                "has value specification": [
+                                                    {
+                                                        "Scalar Value Specification": {
+                                                            "hasIdentifier": "charge_3469_coolingrecipe_targetoiltemperature_valuespecification",
+                                                            "label": "charge_3469_coolingrecipe_targetoiltemperature_valuespecification",
+                                                            "has measurement unit label": [
+                                                                {
+                                                                    "Measurement Unit Label": {
+                                                                        "hasIdentifier": "unit:DEG_C",
+                                                                        "label": "unit:DEG_C"
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "has specified numeric value": 55
+                                                        }
+                                                    }
+                                                ],
+                                                "is about": [
+                                                    {
+                                                        "Temperature": {
+                                                            "hasIdentifier": "charge_3469_heatingchamber_quenchingoil_temperature",
+                                                            "label": "charge_3469_heatingchamber_quenchingoil_temperature"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Device Operation State": {
+                                                "hasIdentifier": "charge_3469_coolingrecipe_oilcirculation",
+                                                "label": "charge_3469_coolingrecipe_oilcirculation",
+                                                "has part": [
+                                                    {
+                                                        "Device Operation State Value": {
+                                                            "hasIdentifier": "charge_3469_coolingrecipe_oilcirculation_value",
+                                                            "label": "charge_3469_coolingrecipe_oilcirculation_value",
+                                                            "specified by value": [
+                                                                {
+                                                                    "ON": {
+                                                                        "hasIdentifier": "hto:HTO_0000035",
+                                                                        "label": "hto:HTO_0000035"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Device Operation State": {
+                                                "hasIdentifier": "charge_3469_coolingrecipe_oilcirculationupwards",
+                                                "label": "charge_3469_coolingrecipe_oilcirculationupwards",
+                                                "has part": [
+                                                    {
+                                                        "Device Operation State Value": {
+                                                            "hasIdentifier": "charge_3469_coolingrecipe_oilcirculationupwards_value",
+                                                            "label": "charge_3469_coolingrecipe_oilcirculationupwards_value",
+                                                            "specified by value": [
+                                                                {
+                                                                    "OFF": {
+                                                                        "hasIdentifier": "hto:HTO_0000036",
+                                                                        "label": "hto:HTO_0000036"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Device Operation State": {
+                                                "hasIdentifier": "charge_3469_coolingrecipe_oilcirculationfast",
+                                                "label": "charge_3469_coolingrecipe_oilcirculationfast",
+                                                "has part": [
+                                                    {
+                                                        "Device Operation State Value": {
+                                                            "hasIdentifier": "charge_3469_coolingrecipe_oilcirculationfast_value",
+                                                            "label": "charge_3469_coolingrecipe_oilcirculationfast_value",
+                                                            "specified by value": [
+                                                                {
+                                                                    "OFF": {
+                                                                        "hasIdentifier": "hto:HTO_0000036",
+                                                                        "label": "hto:HTO_0000036"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "preceded by": [
+                {
+                    "Soaking": {
+                        "hasIdentifier": "charge_3469_step_5",
+                        "label": "charge_3469_step_5"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Soaking": {
+            "hasIdentifier": "charge_3469_step_7",
+            "label": "charge_3469_step_7",
+            "denoted by": [
+                {
+                    "Identifier": {
+                        "hasIdentifier": "charge_3469_step_7_name",
+                        "label": "charge_3469_step_7_name",
+                        "has value": "Durchwärmen bei 850°"
+                    }
+                }
+            ],
+            "proper occurrent part of": [
+                {
+                    "Quenching And Tempering": {
+                        "hasIdentifier": "charge_3469_qt",
+                        "label": "charge_3469_qt"
+                    }
+                }
+            ],
+            "exists at": [
+                {
+                    "Temporal Region": {
+                        "hasIdentifier": "charge_3469_step_7_temporalregion",
+                        "label": "charge_3469_step_7_temporalregion",
+                        "has first instant": [
+                            {
+                                "Temporal Instant": {
+                                    "hasIdentifier": "charge_3469_step_7_temporalinterval_start",
+                                    "label": "charge_3469_step_7_temporalinterval_start",
+                                    "time:inXSDDateTimeStamp": "2022-06-08T15:56:38+02:00"
+                                }
+                            }
+                        ],
+                        "has last instant": [
+                            {
+                                "Temporal Instant": {
+                                    "hasIdentifier": "charge_3469_step_7_temporalinterval_end",
+                                    "label": "charge_3469_step_7_temporalinterval_end",
+                                    "time:inXSDDateTimeStamp": "2022-06-08T16:26:37+02:00"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "has participant": [
+                {
+                    "Furnace": {
+                        "hasIdentifier": "charge_3469_furnace",
+                        "label": "charge_3469_furnace"
+                    }
+                }
+            ],
+            "realizes": [
+                {
+                    "Holding Function": {
+                        "hasIdentifier": "charge_3469_holdingfunction",
+                        "label": "charge_3469_holdingfunction"
+                    }
+                },
+                {
+                    "Plan": {
+                        "hasIdentifier": "charge_3469_soakingplan",
+                        "label": "charge_3469_soakingplan",
+                        "concretizes with": [
+                            {
+                                "Soaking Recipe": {
+                                    "hasIdentifier": "charge_3469_soakingrecipe",
+                                    "label": "charge_3469_soakingrecipe",
+                                    "part of": [
+                                        {
+                                            "Qt Recipe": {
+                                                "hasIdentifier": "charge_3469_qtrecipe",
+                                                "label": "charge_3469_qtrecipe"
+                                            }
+                                        }
+                                    ],
+                                    "has part": [
+                                        {
+                                            "Specification Datum": {
+                                                "hasIdentifier": "charge_3469_soakingrecipe_durationsetting",
+                                                "label": "charge_3469_soakingrecipe_durationsetting",
+                                                "has value specification": [
+                                                    {
+                                                        "Time Duration": {
+                                                            "hasIdentifier": "charge_3469_soakingrecipe_durationsetting_valuespecification",
+                                                            "label": "charge_3469_soakingrecipe_durationsetting_valuespecification",
+                                                            "minutes": 30,
+                                                            "temporal unit type": "unit:MIN"
+                                                        }
+                                                    }
+                                                ],
+                                                "is about": [
+                                                    {
+                                                        "Temporal Region": {
+                                                            "hasIdentifier": "charge_3469_step_7_temporalregion",
+                                                            "label": "charge_3469_step_7_temporalregion"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Specification Datum": {
+                                                "hasIdentifier": "charge_3469_soakingrecipe_targettemperature",
+                                                "label": "charge_3469_soakingrecipe_targettemperature",
+                                                "has value specification": [
+                                                    {
+                                                        "Scalar Value Specification": {
+                                                            "hasIdentifier": "charge_3469_soakingrecipe_targettemperature_valuespecification",
+                                                            "label": "charge_3469_soakingrecipe_targettemperature_valuespecification",
+                                                            "has measurement unit label": [
+                                                                {
+                                                                    "Measurement Unit Label": {
+                                                                        "hasIdentifier": "unit:DEG_C",
+                                                                        "label": "unit:DEG_C"
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "has specified numeric value": 850
+                                                        }
+                                                    }
+                                                ],
+                                                "is about": [
+                                                    {
+                                                        "Temperature": {
+                                                            "hasIdentifier": "charge_3469_heatingchamber_temperature",
+                                                            "label": "charge_3469_heatingchamber_temperature"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Specification Datum": {
+                                                "hasIdentifier": "charge_3469_soakingrecipe_targetvacuumpressure",
+                                                "label": "charge_3469_soakingrecipe_targetvacuumpressure",
+                                                "has value specification": [
+                                                    {
+                                                        "Scalar Value Specification": {
+                                                            "hasIdentifier": "charge_3469_soakingrecipe_targetvacuumpressure_valuespecification",
+                                                            "label": "charge_3469_soakingrecipe_targetvacuumpressure_valuespecification",
+                                                            "has measurement unit label": [
+                                                                {
+                                                                    "Measurement Unit Label": {
+                                                                        "hasIdentifier": "unit:MilliBAR",
+                                                                        "label": "unit:MilliBAR"
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "has specified numeric value": 5
+                                                        }
+                                                    }
+                                                ],
+                                                "is about": [
+                                                    {
+                                                        "Pressure": {
+                                                            "hasIdentifier": "charge_3469_heatingchamber_vacuumpressure",
+                                                            "label": "charge_3469_heatingchamber_vacuumpressure"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Specification Datum": {
+                                                "hasIdentifier": "charge_3469_soakingrecipe_targetoiltemperature",
+                                                "label": "charge_3469_soakingrecipe_targetoiltemperature",
+                                                "has value specification": [
+                                                    {
+                                                        "Scalar Value Specification": {
+                                                            "hasIdentifier": "charge_3469_soakingrecipe_targetoiltemperature_valuespecification",
+                                                            "label": "charge_3469_soakingrecipe_targetoiltemperature_valuespecification",
+                                                            "has measurement unit label": [
+                                                                {
+                                                                    "Measurement Unit Label": {
+                                                                        "hasIdentifier": "unit:DEG_C",
+                                                                        "label": "unit:DEG_C"
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "has specified numeric value": 55
+                                                        }
+                                                    }
+                                                ],
+                                                "is about": [
+                                                    {
+                                                        "Temperature": {
+                                                            "hasIdentifier": "charge_3469_heatingchamber_quenchingoil_temperature",
+                                                            "label": "charge_3469_heatingchamber_quenchingoil_temperature"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Device Operation State": {
+                                                "hasIdentifier": "charge_3469_soakingrecipe_oilcirculation",
+                                                "label": "charge_3469_soakingrecipe_oilcirculation",
+                                                "has part": [
+                                                    {
+                                                        "Device Operation State Value": {
+                                                            "hasIdentifier": "charge_3469_soakingrecipe_oilcirculation_value",
+                                                            "label": "charge_3469_soakingrecipe_oilcirculation_value",
+                                                            "specified by value": [
+                                                                {
+                                                                    "ON": {
+                                                                        "hasIdentifier": "hto:HTO_0000035",
+                                                                        "label": "hto:HTO_0000035"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Device Operation State": {
+                                                "hasIdentifier": "charge_3469_soakingrecipe_oilcirculationupwards",
+                                                "label": "charge_3469_soakingrecipe_oilcirculationupwards",
+                                                "has part": [
+                                                    {
+                                                        "Device Operation State Value": {
+                                                            "hasIdentifier": "charge_3469_soakingrecipe_oilcirculationupwards_value",
+                                                            "label": "charge_3469_soakingrecipe_oilcirculationupwards_value",
+                                                            "specified by value": [
+                                                                {
+                                                                    "OFF": {
+                                                                        "hasIdentifier": "hto:HTO_0000036",
+                                                                        "label": "hto:HTO_0000036"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Device Operation State": {
+                                                "hasIdentifier": "charge_3469_soakingrecipe_oilcirculationfast",
+                                                "label": "charge_3469_soakingrecipe_oilcirculationfast",
+                                                "has part": [
+                                                    {
+                                                        "Device Operation State Value": {
+                                                            "hasIdentifier": "charge_3469_soakingrecipe_oilcirculationfast_value",
+                                                            "label": "charge_3469_soakingrecipe_oilcirculationfast_value",
+                                                            "specified by value": [
+                                                                {
+                                                                    "OFF": {
+                                                                        "hasIdentifier": "hto:HTO_0000036",
+                                                                        "label": "hto:HTO_0000036"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "preceded by": [
+                {
+                    "Cooling": {
+                        "hasIdentifier": "charge_3469_step_6",
+                        "label": "charge_3469_step_6"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Quenching": {
+            "hasIdentifier": "charge_3469_step_8",
+            "label": "charge_3469_step_8",
+            "denoted by": [
+                {
+                    "Identifier": {
+                        "hasIdentifier": "charge_3469_step_8_name",
+                        "label": "charge_3469_step_8_name",
+                        "has value": "Ölabschrecken"
+                    }
+                }
+            ],
+            "proper occurrent part of": [
+                {
+                    "Quenching And Tempering": {
+                        "hasIdentifier": "charge_3469_qt",
+                        "label": "charge_3469_qt"
+                    }
+                }
+            ],
+            "exists at": [
+                {
+                    "Temporal Region": {
+                        "hasIdentifier": "charge_3469_step_8_temporalregion",
+                        "label": "charge_3469_step_8_temporalregion",
+                        "has first instant": [
+                            {
+                                "Temporal Instant": {
+                                    "hasIdentifier": "charge_3469_step_8_temporalinterval_start",
+                                    "label": "charge_3469_step_8_temporalinterval_start",
+                                    "time:inXSDDateTimeStamp": "2022-06-08T16:26:37+02:00"
+                                }
+                            }
+                        ],
+                        "has last instant": [
+                            {
+                                "Temporal Instant": {
+                                    "hasIdentifier": "charge_3469_step_8_temporalinterval_end",
+                                    "label": "charge_3469_step_8_temporalinterval_end",
+                                    "time:inXSDDateTimeStamp": "2022-06-08T16:56:37+02:00"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "has participant": [
+                {
+                    "Furnace": {
+                        "hasIdentifier": "charge_3469_furnace",
+                        "label": "charge_3469_furnace"
+                    }
+                }
+            ],
+            "realizes": [
+                {
+                    "Quenching Function": {
+                        "hasIdentifier": "charge_3469_quenchingfunction",
+                        "label": "charge_3469_quenchingfunction"
+                    }
+                },
+                {
+                    "Plan": {
+                        "hasIdentifier": "charge_3469_quenchingplan",
+                        "label": "charge_3469_quenchingplan",
+                        "concretizes with": [
+                            {
+                                "Quenching Recipe": {
+                                    "hasIdentifier": "charge_3469_quenchingrecipe",
+                                    "label": "charge_3469_quenchingrecipe",
+                                    "part of": [
+                                        {
+                                            "Qt Recipe": {
+                                                "hasIdentifier": "charge_3469_qtrecipe",
+                                                "label": "charge_3469_qtrecipe"
+                                            }
+                                        }
+                                    ],
+                                    "has part": [
+                                        {
+                                            "Specification Datum": {
+                                                "hasIdentifier": "charge_3469_quenchingrecipe_durationsetting",
+                                                "label": "charge_3469_quenchingrecipe_durationsetting",
+                                                "has value specification": [
+                                                    {
+                                                        "Time Duration": {
+                                                            "hasIdentifier": "charge_3469_quenchingrecipe_durationsetting_valuespecification",
+                                                            "label": "charge_3469_quenchingrecipe_durationsetting_valuespecification",
+                                                            "minutes": 30,
+                                                            "temporal unit type": "unit:MIN"
+                                                        }
+                                                    }
+                                                ],
+                                                "is about": [
+                                                    {
+                                                        "Temporal Region": {
+                                                            "hasIdentifier": "charge_3469_step_8_temporalregion",
+                                                            "label": "charge_3469_step_8_temporalregion"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Specification Datum": {
+                                                "hasIdentifier": "charge_3469_quenchingrecipe_targetoiltemperature",
+                                                "label": "charge_3469_quenchingrecipe_targetoiltemperature",
+                                                "has value specification": [
+                                                    {
+                                                        "Scalar Value Specification": {
+                                                            "hasIdentifier": "charge_3469_quenchingrecipe_targetoiltemperature_valuespecification",
+                                                            "label": "charge_3469_quenchingrecipe_targetoiltemperature_valuespecification",
+                                                            "has measurement unit label": [
+                                                                {
+                                                                    "Measurement Unit Label": {
+                                                                        "hasIdentifier": "unit:DEG_C",
+                                                                        "label": "unit:DEG_C"
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "has specified numeric value": 60
+                                                        }
+                                                    }
+                                                ],
+                                                "is about": [
+                                                    {
+                                                        "Temperature": {
+                                                            "hasIdentifier": "charge_3469_quenchingchamber_quenchingoil_temperature",
+                                                            "label": "charge_3469_quenchingchamber_quenchingoil_temperature"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Specification Datum": {
+                                                "hasIdentifier": "charge_3469_quenchingrecipe_targettimeinoil",
+                                                "label": "charge_3469_quenchingrecipe_targettimeinoil",
+                                                "has value specification": [
+                                                    {
+                                                        "Scalar Value Specification": {
+                                                            "hasIdentifier": "charge_3469_quenchingrecipe_targettimeinoil_valuespecification",
+                                                            "label": "charge_3469_quenchingrecipe_targettimeinoil_valuespecification",
+                                                            "has measurement unit label": [
+                                                                {
+                                                                    "Measurement Unit Label": {
+                                                                        "hasIdentifier": "unit:SEC",
+                                                                        "label": "unit:SEC"
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "has specified numeric value": 20
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Device Operation State": {
+                                                "hasIdentifier": "charge_3469_quenchingrecipe_oilcirculation",
+                                                "label": "charge_3469_quenchingrecipe_oilcirculation",
+                                                "has part": [
+                                                    {
+                                                        "Device Operation State Value": {
+                                                            "hasIdentifier": "charge_3469_quenchingrecipe_oilcirculation_value",
+                                                            "label": "charge_3469_quenchingrecipe_oilcirculation_value",
+                                                            "specified by value": [
+                                                                {
+                                                                    "ON": {
+                                                                        "hasIdentifier": "hto:HTO_0000035",
+                                                                        "label": "hto:HTO_0000035"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Device Operation State": {
+                                                "hasIdentifier": "charge_3469_quenchingrecipe_oilcirculationupwards",
+                                                "label": "charge_3469_quenchingrecipe_oilcirculationupwards",
+                                                "has part": [
+                                                    {
+                                                        "Device Operation State Value": {
+                                                            "hasIdentifier": "charge_3469_quenchingrecipe_oilcirculationupwards_value",
+                                                            "label": "charge_3469_quenchingrecipe_oilcirculationupwards_value",
+                                                            "specified by value": [
+                                                                {
+                                                                    "ON": {
+                                                                        "hasIdentifier": "hto:HTO_0000035",
+                                                                        "label": "hto:HTO_0000035"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Device Operation State": {
+                                                "hasIdentifier": "charge_3469_quenchingrecipe_oilcirculationfast",
+                                                "label": "charge_3469_quenchingrecipe_oilcirculationfast",
+                                                "has part": [
+                                                    {
+                                                        "Device Operation State Value": {
+                                                            "hasIdentifier": "charge_3469_quenchingrecipe_oilcirculationfast_value",
+                                                            "label": "charge_3469_quenchingrecipe_oilcirculationfast_value",
+                                                            "specified by value": [
+                                                                {
+                                                                    "ON": {
+                                                                        "hasIdentifier": "hto:HTO_0000035",
+                                                                        "label": "hto:HTO_0000035"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Device Operation State": {
+                                                "hasIdentifier": "charge_3469_quenchingrecipe_qkoilgate",
+                                                "label": "charge_3469_quenchingrecipe_qkoilgate",
+                                                "has part": [
+                                                    {
+                                                        "Device Operation State Value": {
+                                                            "hasIdentifier": "charge_3469_quenchingrecipe_qkoilgate_value",
+                                                            "label": "charge_3469_quenchingrecipe_qkoilgate_value",
+                                                            "specified by value": [
+                                                                {
+                                                                    "ON": {
+                                                                        "hasIdentifier": "hto:HTO_0000035",
+                                                                        "label": "hto:HTO_0000035"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Device Operation State": {
+                                                "hasIdentifier": "charge_3469_quenchingrecipe_programend",
+                                                "label": "charge_3469_quenchingrecipe_programend",
+                                                "has part": [
+                                                    {
+                                                        "Device Operation State Value": {
+                                                            "hasIdentifier": "charge_3469_quenchingrecipe_programend_value",
+                                                            "label": "charge_3469_quenchingrecipe_programend_value",
+                                                            "specified by value": [
+                                                                {
+                                                                    "OFF": {
+                                                                        "hasIdentifier": "hto:HTO_0000036",
+                                                                        "label": "hto:HTO_0000036"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Device Operation State": {
+                                                "hasIdentifier": "charge_3469_quenchingrecipe_programendreached",
+                                                "label": "charge_3469_quenchingrecipe_programendreached",
+                                                "has part": [
+                                                    {
+                                                        "Device Operation State Value": {
+                                                            "hasIdentifier": "charge_3469_quenchingrecipe_programendreached_value",
+                                                            "label": "charge_3469_quenchingrecipe_programendreached_value",
+                                                            "specified by value": [
+                                                                {
+                                                                    "OFF": {
+                                                                        "hasIdentifier": "hto:HTO_0000036",
+                                                                        "label": "hto:HTO_0000036"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "preceded by": [
+                {
+                    "Soaking": {
+                        "hasIdentifier": "charge_3469_step_7",
+                        "label": "charge_3469_step_7"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Process": {
+            "hasIdentifier": "charge_3469_step_9",
+            "label": "charge_3469_step_9",
+            "denoted by": [
+                {
+                    "Identifier": {
+                        "hasIdentifier": "charge_3469_step_9_name",
+                        "label": "charge_3469_step_9_name",
+                        "has value": "PROG-ENDE"
+                    }
+                }
+            ],
+            "proper occurrent part of": [
+                {
+                    "Quenching And Tempering": {
+                        "hasIdentifier": "charge_3469_qt",
+                        "label": "charge_3469_qt"
+                    }
+                }
+            ],
+            "exists at": [
+                {
+                    "Temporal Region": {
+                        "hasIdentifier": "charge_3469_step_9_temporalregion",
+                        "label": "charge_3469_step_9_temporalregion",
+                        "has first instant": [
+                            {
+                                "Temporal Instant": {
+                                    "hasIdentifier": "charge_3469_step_9_temporalinterval_start",
+                                    "label": "charge_3469_step_9_temporalinterval_start",
+                                    "time:inXSDDateTimeStamp": "2022-06-08T16:56:37+02:00"
+                                }
+                            }
+                        ],
+                        "has last instant": [
+                            {
+                                "Temporal Instant": {
+                                    "hasIdentifier": "charge_3469_step_9_temporalinterval_end",
+                                    "label": "charge_3469_step_9_temporalinterval_end",
+                                    "time:inXSDDateTimeStamp": "2022-06-08T16:57:37+02:00"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "has participant": [
+                {
+                    "Furnace": {
+                        "hasIdentifier": "charge_3469_furnace",
+                        "label": "charge_3469_furnace"
+                    }
+                }
+            ],
+            "realizes": [
+                {
+                    "Plan": {
+                        "hasIdentifier": "charge_3469_processplan",
+                        "label": "charge_3469_processplan",
+                        "concretizes with": [
+                            {
+                                "Recipe": {
+                                    "hasIdentifier": "charge_3469_processendrecipe",
+                                    "label": "charge_3469_processendrecipe",
+                                    "part of": [
+                                        {
+                                            "Qt Recipe": {
+                                                "hasIdentifier": "charge_3469_qtrecipe",
+                                                "label": "charge_3469_qtrecipe"
+                                            }
+                                        }
+                                    ],
+                                    "has part": [
+                                        {
+                                            "Specification Datum": {
+                                                "hasIdentifier": "charge_3469_recipe_durationsetting",
+                                                "label": "charge_3469_recipe_durationsetting",
+                                                "has value specification": [
+                                                    {
+                                                        "Time Duration": {
+                                                            "hasIdentifier": "charge_3469_recipe_durationsetting_valuespecification",
+                                                            "label": "charge_3469_recipe_durationsetting_valuespecification",
+                                                            "minutes": 1,
+                                                            "temporal unit type": "unit:MIN"
+                                                        }
+                                                    }
+                                                ],
+                                                "is about": [
+                                                    {
+                                                        "Temporal Region": {
+                                                            "hasIdentifier": "charge_3469_step_9_temporalregion",
+                                                            "label": "charge_3469_step_9_temporalregion"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Specification Datum": {
+                                                "hasIdentifier": "charge_3469_recipe_targetoiltemperature",
+                                                "label": "charge_3469_recipe_targetoiltemperature",
+                                                "has value specification": [
+                                                    {
+                                                        "Scalar Value Specification": {
+                                                            "hasIdentifier": "charge_3469_recipe_targetoiltemperature_valuespecification",
+                                                            "label": "charge_3469_recipe_targetoiltemperature_valuespecification",
+                                                            "has measurement unit label": [
+                                                                {
+                                                                    "Measurement Unit Label": {
+                                                                        "hasIdentifier": "unit:DEG_C",
+                                                                        "label": "unit:DEG_C"
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "has specified numeric value": 60
+                                                        }
+                                                    }
+                                                ],
+                                                "is about": [
+                                                    {
+                                                        "Temperature": {
+                                                            "hasIdentifier": "charge_3469_quenchingchamber_quenchingoil_temperature",
+                                                            "label": "charge_3469_quenchingchamber_quenchingoil_temperature"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Device Operation State": {
+                                                "hasIdentifier": "charge_3469_recipe_oilcirculation",
+                                                "label": "charge_3469_recipe_oilcirculation",
+                                                "has part": [
+                                                    {
+                                                        "Device Operation State Value": {
+                                                            "hasIdentifier": "charge_3469_recipe_oilcirculation_value",
+                                                            "label": "charge_3469_recipe_oilcirculation_value",
+                                                            "specified by value": [
+                                                                {
+                                                                    "OFF": {
+                                                                        "hasIdentifier": "hto:HTO_0000036",
+                                                                        "label": "hto:HTO_0000036"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Device Operation State": {
+                                                "hasIdentifier": "charge_3469_recipe_oilcirculationupwards",
+                                                "label": "charge_3469_recipe_oilcirculationupwards",
+                                                "has part": [
+                                                    {
+                                                        "Device Operation State Value": {
+                                                            "hasIdentifier": "charge_3469_recipe_oilcirculationupwards_value",
+                                                            "label": "charge_3469_recipe_oilcirculationupwards_value",
+                                                            "specified by value": [
+                                                                {
+                                                                    "OFF": {
+                                                                        "hasIdentifier": "hto:HTO_0000036",
+                                                                        "label": "hto:HTO_0000036"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Device Operation State": {
+                                                "hasIdentifier": "charge_3469_recipe_oilcirculationfast",
+                                                "label": "charge_3469_recipe_oilcirculationfast",
+                                                "has part": [
+                                                    {
+                                                        "Device Operation State Value": {
+                                                            "hasIdentifier": "charge_3469_recipe_oilcirculationfast_value",
+                                                            "label": "charge_3469_recipe_oilcirculationfast_value",
+                                                            "specified by value": [
+                                                                {
+                                                                    "OFF": {
+                                                                        "hasIdentifier": "hto:HTO_0000036",
+                                                                        "label": "hto:HTO_0000036"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Device Operation State": {
+                                                "hasIdentifier": "charge_3469_recipe_qkoilgate",
+                                                "label": "charge_3469_recipe_qkoilgate",
+                                                "has part": [
+                                                    {
+                                                        "Device Operation State Value": {
+                                                            "hasIdentifier": "charge_3469_recipe_qkoilgate_value",
+                                                            "label": "charge_3469_recipe_qkoilgate_value",
+                                                            "specified by value": [
+                                                                {
+                                                                    "OFF": {
+                                                                        "hasIdentifier": "hto:HTO_0000036",
+                                                                        "label": "hto:HTO_0000036"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Device Operation State": {
+                                                "hasIdentifier": "charge_3469_recipe_programend",
+                                                "label": "charge_3469_recipe_programend",
+                                                "has part": [
+                                                    {
+                                                        "Device Operation State Value": {
+                                                            "hasIdentifier": "charge_3469_recipe_programend_value",
+                                                            "label": "charge_3469_recipe_programend_value",
+                                                            "specified by value": [
+                                                                {
+                                                                    "ON": {
+                                                                        "hasIdentifier": "hto:HTO_0000035",
+                                                                        "label": "hto:HTO_0000035"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "Device Operation State": {
+                                                "hasIdentifier": "charge_3469_recipe_programendreached",
+                                                "label": "charge_3469_recipe_programendreached",
+                                                "has part": [
+                                                    {
+                                                        "Device Operation State Value": {
+                                                            "hasIdentifier": "charge_3469_recipe_programendreached_value",
+                                                            "label": "charge_3469_recipe_programendreached_value",
+                                                            "specified by value": [
+                                                                {
+                                                                    "ON": {
+                                                                        "hasIdentifier": "hto:HTO_0000035",
+                                                                        "label": "hto:HTO_0000035"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "preceded by": [
+                {
+                    "Quenching": {
+                        "hasIdentifier": "charge_3469_step_8",
+                        "label": "charge_3469_step_8"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Furnace": {
+            "hasIdentifier": "charge_3469_furnace",
+            "label": "charge_3469_furnace",
+            "denoted by": [
+                {
+                    "Identifier": {
+                        "hasIdentifier": "charge_3469_furnace_identifier",
+                        "label": "charge_3469_furnace_identifier",
+                        "has value": "charge_3469_furnace_name"
+                    }
+                }
+            ],
+            "has part": [
+                {
+                    "Heating Chamber": {
+                        "hasIdentifier": "charge_3469_heatingchamber",
+                        "label": "charge_3469_heatingchamber",
+                        "denoted by": [
+                            {
+                                "Identifier": {
+                                    "hasIdentifier": "charge_3469_heatingchamber_identifier",
+                                    "label": "charge_3469_heatingchamber_identifier",
+                                    "has value": "charge_3469_heatingchamber_name"
+                                }
+                            }
+                        ],
+                        "has part": [
+                            {
+                                "Fluid (Object)": {
+                                    "hasIdentifier": "charge_3469_atmosphere",
+                                    "label": "charge_3469_atmosphere",
+                                    "has quality": [
+                                        {
+                                            "Temperature": {
+                                                "hasIdentifier": "charge_3469_heatingchamber_temperature",
+                                                "label": "charge_3469_heatingchamber_temperature"
+                                            }
+                                        },
+                                        {
+                                            "Pressure": {
+                                                "hasIdentifier": "charge_3469_heatingchamber_pressure",
+                                                "label": "charge_3469_heatingchamber_pressure"
+                                            }
+                                        },
+                                        {
+                                            "Pressure": {
+                                                "hasIdentifier": "charge_3469_heatingchamber_vacuumpressure",
+                                                "label": "charge_3469_heatingchamber_vacuumpressure"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Quenching Chamber": {
+                        "hasIdentifier": "charge_3469_quenchingchamber",
+                        "label": "charge_3469_quenchingchamber",
+                        "denoted by": [
+                            {
+                                "Identifier": {
+                                    "hasIdentifier": "charge_3469_quenchingchamber_identifier",
+                                    "label": "charge_3469_quenchingchamber_identifier",
+                                    "has value": "charge_3469_quenchingchamber_name"
+                                }
+                            }
+                        ],
+                        "has part": [
+                            {
+                                "Quenchant": {
+                                    "hasIdentifier": "charge_3469_quenchant",
+                                    "label": "charge_3469_quenchant",
+                                    "has quality": [
+                                        {
+                                            "Temperature": {
+                                                "hasIdentifier": "charge_3469_quenchingchamber_temperature",
+                                                "label": "charge_3469_quenchingchamber_temperature"
+                                            }
+                                        },
+                                        {
+                                            "Temperature": {
+                                                "hasIdentifier": "charge_3469_quenchingoil_temperature",
+                                                "label": "charge_3469_quenchingoil_temperature"
+                                            }
+                                        },
+                                        {
+                                            "Pressure": {
+                                                "hasIdentifier": "charge_3469_quenchingchamber_pressure",
+                                                "label": "charge_3469_quenchingchamber_pressure"
+                                            }
+                                        },
+                                        {
+                                            "Pressure": {
+                                                "hasIdentifier": "charge_3469_quenchingchamber_vacuumpressure",
+                                                "label": "charge_3469_quenchingchamber_vacuumpressure"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Device": {
+                        "hasIdentifier": "charge_3469_quenchingpump",
+                        "label": "charge_3469_quenchingpump",
+                        "denoted by": [
+                            {
+                                "Identifier": {
+                                    "hasIdentifier": "charge_3469_quenchingpump_identifier",
+                                    "label": "charge_3469_quenchingpump_identifier",
+                                    "has value": "charge_3469_quenchingpump_name"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Device": {
+                        "hasIdentifier": "charge_3469_vacuumpump",
+                        "label": "charge_3469_vacuumpump",
+                        "denoted by": [
+                            {
+                                "Identifier": {
+                                    "hasIdentifier": "charge_3469_vacuumpump_identifier",
+                                    "label": "charge_3469_vacuumpump_identifier",
+                                    "has value": "charge_3469_vacuumpump_name"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Device": {
+                        "hasIdentifier": "charge_3469_measurementdevice",
+                        "label": "charge_3469_measurementdevice",
+                        "denoted by": [
+                            {
+                                "Identifier": {
+                                    "hasIdentifier": "charge_3469_measurementdevice_identifier",
+                                    "label": "charge_3469_measurementdevice_identifier",
+                                    "has value": "charge_3469_measurementdevice_name"
+                                }
+                            }
+                        ],
+                        "has function": [
+                            {
+                                "Measuring Function": {
+                                    "hasIdentifier": "charge_3469_measuringdevicefunction",
+                                    "label": "charge_3469_measuringdevicefunction"
+                                }
+                            }
+                        ],
+                        "has role": [
+                            {
+                                "Device Role": {
+                                    "hasIdentifier": "charge_3469_measuringdevicerole",
+                                    "label": "charge_3469_measuringdevicerole"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "has function": [
+                {
+                    "Heating Function": {
+                        "hasIdentifier": "charge_3469_heatingfunction",
+                        "label": "charge_3469_heatingfunction"
+                    }
+                },
+                {
+                    "Holding Function": {
+                        "hasIdentifier": "charge_3469_holdingfunction",
+                        "label": "charge_3469_holdingfunction"
+                    }
+                },
+                {
+                    "Cooling Function": {
+                        "hasIdentifier": "charge_3469_coolingfunction",
+                        "label": "charge_3469_coolingfunction"
+                    }
+                },
+                {
+                    "Quenching Function": {
+                        "hasIdentifier": "charge_3469_quenchingfunction",
+                        "label": "charge_3469_quenchingfunction"
+                    }
+                },
+                {
+                    "Mechanical Function": {
+                        "hasIdentifier": "charge_3469_convectionpumpfunction",
+                        "label": "charge_3469_convectionpumpfunction"
+                    }
+                }
+            ],
+            "has role": [
+                {
+                    "Device Role": {
+                        "hasIdentifier": "charge_3469_furnacerole",
+                        "label": "charge_3469_furnacerole"
+                    }
+                }
+            ]
+        }
+    }
+]

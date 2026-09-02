@@ -1,0 +1,86 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://example.org/rde/hto-invoice-schema.json",
+    "title": "Heat Treatment (Carburizing) Invoice Schema",
+    "description": "Top-level identifying information for a heat-treatment charge submission. Detailed step-by-step furnace data belongs in metadata-def.json, not here.",
+    "type": "object",
+    "required": [
+        "custom"
+    ],
+    "properties": {
+        "custom": {
+            "type": "object",
+            "label": {
+                "ja": "固有情報",
+                "en": "Custom Information"
+            },
+            "required": [
+                "process_id",
+                "loadname",
+                "treatmenttype"
+            ],
+            "properties": {
+                "process_id": {
+                    "type": "string",
+                    "label": {
+                        "ja": "プロセスID",
+                        "en": "Process ID"
+                    },
+                    "description": "Unique identifier for this heat-treatment charge"
+                },
+                "loadname": {
+                    "type": "string",
+                    "label": {
+                        "ja": "チャージ名",
+                        "en": "Load / Charge Name"
+                    },
+                    "examples": [
+                        "Charge 3467"
+                    ]
+                },
+                "treatmenttype": {
+                    "type": "string",
+                    "label": {
+                        "ja": "処理種別",
+                        "en": "Treatment Type"
+                    },
+                    "examples": [
+                        "Carbourising",
+                        "Quenching and Tempering"
+                    ]
+                },
+                "treatment": {
+                    "type": "string",
+                    "label": {
+                        "ja": "処理内容",
+                        "en": "Treatment (Recipe Summary)"
+                    },
+                    "examples": [
+                        "850°C 2H/ÖL"
+                    ]
+                },
+                "starttime": {
+                    "type": "string",
+                    "label": {
+                        "ja": "開始時刻",
+                        "en": "Start Time"
+                    }
+                },
+                "endtime": {
+                    "type": "string",
+                    "label": {
+                        "ja": "終了時刻",
+                        "en": "End Time"
+                    }
+                },
+                "numberofsteps": {
+                    "type": "number",
+                    "label": {
+                        "ja": "ステップ数",
+                        "en": "Number of Steps"
+                    }
+                }
+            }
+        }
+    }
+}

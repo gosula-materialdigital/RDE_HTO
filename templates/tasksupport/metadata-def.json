@@ -1,0 +1,190 @@
+{
+    "process_id": {
+        "name": {
+            "en": "process_id"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "description": "Sanitized identifier for this charge (derived from loadname); prefixes every ontology identifier in the canonical mapping"
+    },
+    "loadname": {
+        "name": {
+            "en": "loadname"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "class name": "Identifier",
+        "iri": "http://purl.obolibrary.org/obo/IAO_0020000",
+        "instance name": "name",
+        "denotes": "Object",
+        "denotes iri": "http://purl.obolibrary.org/obo/BFO_0000030",
+        "denotes instance name": "testpiece",
+        "description": "Furnace charge/load name"
+    },
+    "numberofsteps": {
+        "name": {
+            "en": "numberofsteps"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "class name": "Quenching And Tempering",
+        "iri": "https://w3id.org/pmd/hto/HTO_0000022",
+        "description": "Number of process steps in this recipe"
+    },
+    "starttime": {
+        "name": {
+            "en": "starttime"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "class name": "Temporal Instant",
+        "iri": "http://purl.obolibrary.org/obo/BFO_0000203",
+        "description": "Start timestamp of the overall heat-treatment process"
+    },
+    "endtime": {
+        "name": {
+            "en": "endtime"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "class name": "Temporal Instant",
+        "iri": "http://purl.obolibrary.org/obo/BFO_0000203",
+        "description": "End timestamp of the overall heat-treatment process"
+    },
+    "treatmenttype": {
+        "name": {
+            "en": "treatmenttype"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "class name": "Identifier",
+        "iri": "http://purl.obolibrary.org/obo/IAO_0020000",
+        "instance name": "name",
+        "denotes": "Quenching And Tempering",
+        "denotes iri": "https://w3id.org/pmd/hto/HTO_0000022",
+        "denotes instance name": "quenchingandtempering",
+        "description": "Treatment type as reported by the furnace controller"
+    },
+    "treatment": {
+        "name": {
+            "en": "treatment"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "class name": "Identifier",
+        "iri": "http://purl.obolibrary.org/obo/IAO_0020000",
+        "instance name": "qtrecipe_type",
+        "denotes": "Qt Recipe",
+        "denotes iri": "https://w3id.org/pmd/hto/HTO_0000021",
+        "denotes instance name": "qtrecipe",
+        "description": "Free-text recipe summary (e.g. '850°C 2H/ÖL')"
+    },
+    "step_name": {
+        "name": {
+            "en": "step_name"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "class name": "Identifier",
+        "iri": "http://purl.obolibrary.org/obo/IAO_0020000",
+        "description": "Raw step name from the furnace controller; determines which process subclass this step maps to",
+        "variable": true
+    },
+    "step_starttime": {
+        "name": {
+            "en": "step_starttime"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "class name": "Temporal Instant",
+        "iri": "http://purl.obolibrary.org/obo/BFO_0000203",
+        "description": "Start timestamp of this step",
+        "variable": true
+    },
+    "step_endtime": {
+        "name": {
+            "en": "step_endtime"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "class name": "Temporal Instant",
+        "iri": "http://purl.obolibrary.org/obo/BFO_0000203",
+        "description": "End timestamp of this step",
+        "variable": true
+    },
+    "step_endafter[min]": {
+        "name": {
+            "en": "step_endafter[min]"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "class name": "Time Duration",
+        "iri": "http://www.w3.org/2006/time#Duration",
+        "unit": "unit:MIN",
+        "description": "Planned duration of this step in minutes",
+        "variable": true
+    },
+    "step_setpoint_temperatur[°c]": {
+        "name": {
+            "en": "step_setpoint_temperatur[°c]"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "class name": "Scalar Value Specification",
+        "iri": "http://purl.obolibrary.org/obo/OBI_0001931",
+        "unit": "unit:DEG_C",
+        "description": "Target chamber temperature setpoint; may instead hold a ramp instruction (e.g. '+/min 15 End >= 845')",
+        "variable": true
+    },
+    "step_setpoint_vak_heizung[mbar]": {
+        "name": {
+            "en": "step_setpoint_vak_heizung[mbar]"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "class name": "Scalar Value Specification",
+        "iri": "http://purl.obolibrary.org/obo/OBI_0001931",
+        "unit": "unit:MilliBAR",
+        "description": "Target vacuum heating pressure setpoint",
+        "variable": true
+    },
+    "step_setpoint_öltemp[°c]": {
+        "name": {
+            "en": "step_setpoint_öltemp[°c]"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "class name": "Scalar Value Specification",
+        "iri": "http://purl.obolibrary.org/obo/OBI_0001931",
+        "unit": "unit:DEG_C",
+        "description": "Target quench-oil temperature setpoint",
+        "variable": true
+    },
+    "step_setpoint_zt_in_öl[s]": {
+        "name": {
+            "en": "step_setpoint_zt_in_öl[s]"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "class name": "Scalar Value Specification",
+        "iri": "http://purl.obolibrary.org/obo/OBI_0001931",
+        "unit": "unit:SEC",
+        "description": "Target duration the specimen remains submerged in the quench oil",
+        "variable": true
+    }
+}

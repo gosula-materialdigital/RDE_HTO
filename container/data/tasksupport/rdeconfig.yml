@@ -1,0 +1,5 @@
+system:
+    save_raw: true
+    save_nonshared_raw: false
+    magic_variable: false
+    save_thumbnail_image: true

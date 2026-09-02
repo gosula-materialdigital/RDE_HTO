@@ -1,0 +1,250 @@
+{
+    "constant": {
+        "process_id": {
+            "value": "charge_3468"
+        },
+        "loadname": {
+            "value": "Charge 3468"
+        },
+        "numberofsteps": {
+            "value": 9
+        },
+        "starttime": {
+            "value": "08.06.2022 07:41:03"
+        },
+        "endtime": {
+            "value": "08.06.2022 11:42:01"
+        },
+        "treatmenttype": {
+            "value": "Quenching and Tempering"
+        },
+        "treatment": {
+            "value": "850°C 2H/ÖL"
+        }
+    },
+    "variable": [
+        {
+            "step_name": {
+                "value": "Evakuieren"
+            },
+            "step_starttime": {
+                "value": "08.06.2022 07:41:03"
+            },
+            "step_endtime": {
+                "value": "08.06.2022 08:01:02"
+            },
+            "step_endafter[min]": {
+                "value": 20,
+                "unit": "unit:MIN"
+            },
+            "step_setpoint_temperatur[°c]": {
+                "value": "20",
+                "unit": "unit:DEG_C"
+            },
+            "step_setpoint_vak_heizung[mbar]": {
+                "value": "5",
+                "unit": "unit:MilliBAR"
+            },
+            "step_setpoint_öltemp[°c]": {
+                "value": "55",
+                "unit": "unit:DEG_C"
+            }
+        },
+        {
+            "step_name": {
+                "value": "Heizen auf 850°C mit"
+            },
+            "step_starttime": {
+                "value": "08.06.2022 08:01:02"
+            },
+            "step_endtime": {
+                "value": "08.06.2022 08:47:04"
+            },
+            "step_setpoint_temperatur[°c]": {
+                "value": "+/min 15 End >= 845",
+                "unit": "unit:DEG_C"
+            },
+            "step_setpoint_vak_heizung[mbar]": {
+                "value": "5",
+                "unit": "unit:MilliBAR"
+            },
+            "step_setpoint_öltemp[°c]": {
+                "value": "55",
+                "unit": "unit:DEG_C"
+            }
+        },
+        {
+            "step_name": {
+                "value": "Durchwärmen bei 850°"
+            },
+            "step_starttime": {
+                "value": "08.06.2022 08:47:04"
+            },
+            "step_endtime": {
+                "value": "08.06.2022 09:02:04"
+            },
+            "step_endafter[min]": {
+                "value": 15,
+                "unit": "unit:MIN"
+            },
+            "step_setpoint_temperatur[°c]": {
+                "value": "850",
+                "unit": "unit:DEG_C"
+            },
+            "step_setpoint_vak_heizung[mbar]": {
+                "value": "5",
+                "unit": "unit:MilliBAR"
+            },
+            "step_setpoint_öltemp[°c]": {
+                "value": "55",
+                "unit": "unit:DEG_C"
+            }
+        },
+        {
+            "step_name": {
+                "value": "Heizen auf 1000°C mi"
+            },
+            "step_starttime": {
+                "value": "08.06.2022 09:02:04"
+            },
+            "step_endtime": {
+                "value": "08.06.2022 09:11:51"
+            },
+            "step_setpoint_temperatur[°c]": {
+                "value": "+/min 15 End >= 995",
+                "unit": "unit:DEG_C"
+            },
+            "step_setpoint_vak_heizung[mbar]": {
+                "value": "5",
+                "unit": "unit:MilliBAR"
+            },
+            "step_setpoint_öltemp[°c]": {
+                "value": "55",
+                "unit": "unit:DEG_C"
+            }
+        },
+        {
+            "step_name": {
+                "value": "Durchwärmen bei 1000"
+            },
+            "step_starttime": {
+                "value": "08.06.2022 09:11:51"
+            },
+            "step_endtime": {
+                "value": "08.06.2022 10:11:51"
+            },
+            "step_endafter[min]": {
+                "value": 60,
+                "unit": "unit:MIN"
+            },
+            "step_setpoint_temperatur[°c]": {
+                "value": "1000",
+                "unit": "unit:DEG_C"
+            },
+            "step_setpoint_vak_heizung[mbar]": {
+                "value": "5",
+                "unit": "unit:MilliBAR"
+            },
+            "step_setpoint_öltemp[°c]": {
+                "value": "55",
+                "unit": "unit:DEG_C"
+            }
+        },
+        {
+            "step_name": {
+                "value": "Absenken auf 850°C m"
+            },
+            "step_starttime": {
+                "value": "08.06.2022 10:11:51"
+            },
+            "step_endtime": {
+                "value": "08.06.2022 10:41:02"
+            },
+            "step_setpoint_temperatur[°c]": {
+                "value": "+/min 5 End <= 855",
+                "unit": "unit:DEG_C"
+            },
+            "step_setpoint_vak_heizung[mbar]": {
+                "value": "5",
+                "unit": "unit:MilliBAR"
+            },
+            "step_setpoint_öltemp[°c]": {
+                "value": "55",
+                "unit": "unit:DEG_C"
+            }
+        },
+        {
+            "step_name": {
+                "value": "Durchwärmen bei 850°"
+            },
+            "step_starttime": {
+                "value": "08.06.2022 10:41:02"
+            },
+            "step_endtime": {
+                "value": "08.06.2022 11:11:01"
+            },
+            "step_endafter[min]": {
+                "value": 30,
+                "unit": "unit:MIN"
+            },
+            "step_setpoint_temperatur[°c]": {
+                "value": "850",
+                "unit": "unit:DEG_C"
+            },
+            "step_setpoint_vak_heizung[mbar]": {
+                "value": "5",
+                "unit": "unit:MilliBAR"
+            },
+            "step_setpoint_öltemp[°c]": {
+                "value": "55",
+                "unit": "unit:DEG_C"
+            }
+        },
+        {
+            "step_name": {
+                "value": "Ölabschrecken"
+            },
+            "step_starttime": {
+                "value": "08.06.2022 11:11:01"
+            },
+            "step_endtime": {
+                "value": "08.06.2022 11:41:01"
+            },
+            "step_endafter[min]": {
+                "value": 30,
+                "unit": "unit:MIN"
+            },
+            "step_setpoint_öltemp[°c]": {
+                "value": "60",
+                "unit": "unit:DEG_C"
+            },
+            "step_setpoint_zt_in_öl[s]": {
+                "value": "20",
+                "unit": "unit:SEC"
+            }
+        },
+        {
+            "step_name": {
+                "value": "PROG-ENDE"
+            },
+            "step_starttime": {
+                "value": "08.06.2022 11:41:01"
+            },
+            "step_endtime": {
+                "value": "08.06.2022 11:42:01"
+            },
+            "step_endafter[min]": {
+                "value": 1,
+                "unit": "unit:MIN"
+            },
+            "step_setpoint_öltemp[°c]": {
+                "value": "60",
+                "unit": "unit:DEG_C"
+            },
+            "step_setpoint_zt_in_öl[s]": {
+                "value": "0",
+                "unit": "unit:SEC"
+            }
+        }
+    ]
+}
